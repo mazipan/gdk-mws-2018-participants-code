@@ -16,7 +16,7 @@ Dokumentasi kode untuk Google Developer Kejar - Mobile Web Specialist 2018
 ## Github Pages
 
 
-Repository ini sudah ter-setup Github Pages pada branch master yang bisa kalian akses di https://mazipan.github.io/gdk-mws-2018-participants-code/, jadi bila kalian membutuhkan demo untuk file kalian bisa langsung akses setelah code selesai di merge ke branch master, misalnya https://mazipan.github.io/gdk-mws-2018-participants-code/IrfanMaualana/
+Repository ini sudah ter-setup Github Pages pada branch master yang bisa kalian akses di https://mazipan.github.io/gdk-mws-2018-participants-code/, jadi bila kalian membutuhkan demo untuk file kalian bisa langsung akses setelah code selesai di merge ke branch master, misalnya https://mazipan.github.io/gdk-mws-2018-participants-code/IrfanMaulana
 
 --------
 

@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width,initial=scale=1">
+	<title>Rizesky Personal Site</title>
+	<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+
+	<style type="text/css">
+
+		html{
+			font-family: 'Lato',sans-serif;
+		}
+		.container{
+			display: grid;
+			width: 100%;
+			grid-template-columns: repeat(4,1fr);
+			grid-template-rows: 50px 100px 100px 100px 25px;
+			grid-gap: 4px;
+
+		}
+
+		.menu{
+			background:#F1F1F1;
+			grid-column-start: 1;
+			grid-column-end: 5;
+			border: 0px solid #bdc3c7;
+			padding: 0.3em;
+			border-color: grey;
+		  	box-shadow: 0 2px 5px grey;
+			border-radius: 10px;
+			transition: all 1s;
+
+		}
+
+		.menu:hover {
+		  border-color: grey;
+		  box-shadow: 0 12px 8px grey;
+		 
+		}
+
+		.sidebar{
+			background: #F1F1F1;
+			grid-row-start: 2;
+			grid-row-end:5;
+			grid-column-end: 1/4;
+			
+			border: 0.2px solid #bdc3c7;
+			border-color: grey;
+		  	box-shadow: 2px 2px 5px grey;
+		  	border-radius: 10px;
+
+		}
+
+		.sidebar:hover {
+		  border-color: grey;
+		  box-shadow: 0 12px 8px grey;
+		 
+		}
+
+		.konten{
+			background: white;
+			grid-column:2/5;
+			border: 0px solid #bdc3c7;
+			border-color: grey;
+		  	box-shadow: 2px 2px 5px grey;
+		  	border-radius: 10px;
+		}
+
+		.konten:hover {
+		  border-color: grey;
+		  box-shadow: 3px 4px 8px grey;
+		 
+		}
+
+
+		.footer{
+			background: white;
+			grid-column: 1/5;
+			grid-row: 5/6;
+		}
+
+		.responsive img {
+		    max-width:100%;
+		    width:2.4em;
+		    height: auto;
+		}
+
+		#menu{
+			border-color: black;
+		    box-shadow: 0 5px 7px grey;
+		    border-radius: 10px;
+		}
+
+		#menu:hover{
+		  border-color: grey;
+		  box-shadow: 0 6px 7px grey;
+		}
+
+		#sidebar_pic{
+			margin: 33%;
+			max-width: 100%;
+			height: auto;
+			width: 30%;
+			border-radius: 10px;
+		}
+
+		#sidebar_pic:hover{
+			border-color: grey;
+		   box-shadow: 0 2px 7px grey;
+		}
+
+		a{
+			color: black;
+			text-decoration: none;
+			text-shadow: 1px 1px white;	
+			margin: 10%;
+		}
+
+		a:hover{
+			font-size: 105%;
+
+		}
+
+		a:active{
+			font-size: 110%;
+			font-weight: bold;
+		}
+
+
+
+	</style>
+</head>
+<body>
+	<div class="container">
+		<div class="menu">
+			<span class="responsive"><img id="menu" src="images/icons/menu_icon_1.png" ></span>
+		</div>
+		<div class="sidebar">
+			<span class="responsive"><img id="sidebar_pic" src="images/profiles/me.png" ></span>
+		</div>
+		<div class="konten"><a id="link" href="project1/index.html"><center>Menjumlahkan Dua Angka</center></a></div>
+		<div class="konten"><a id="link" href="project2/index.html"><center>Lokasi Istimewa dengan MapBox</center></a></div>
+		<div class="konten"><center>Konten 3</center></div>
+		<div class="footer"><center><small>Rizesky Siallagan</small></center></div>
+	</div>
+</body>
+</html>

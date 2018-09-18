@@ -118,8 +118,8 @@
       </div>
       <hr/>
       <div id="body">
-          <input type="number" name="input1" value="">
-          <input type="number" name="input2" value="">
+          <input type="number" name="input1" value="" placeholder="...">
+          <input type="number" name="input2" value="" placeholder="...">
           <div class="operator-container">
                 <hr width="100%">
                 <button class="operator">+</button>
@@ -150,8 +150,9 @@
             }
             if(input1 && input2) {
                 result = parseInt(input1) + parseInt(input2);
-                console.log(result)
                 document.getElementById('result').innerHTML = result
+            } else {
+                document.getElementById('result').innerHTML = '...'
             }
         }
         

@@ -1,3 +1,6 @@
 [submodule "AhmadFakhruroziSyah"]
 	path = AhmadFakhruroziSyah
 	url = https://github.com/haifahrul/google-mws.git
+[submodule "RAdySuryaA"]
+	path = RAdySuryaA
+	url = git@github.com:ri7nz/mws18.git

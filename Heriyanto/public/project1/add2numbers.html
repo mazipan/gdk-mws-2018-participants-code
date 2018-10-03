@@ -109,11 +109,11 @@
     <div id="message">
       <div id="header">
           <a href="../" >
-            <img alt="task-pic" src="https://image.flaticon.com/icons/svg/265/265685.svg">
+            <img alt="task-pic" src="./images/icon_calculator.svg">
           </a>
           <div id="info">
-              <h1>Tugas Minggu ke-1</h1>
-              <p class="description">membuat kalkulator sederhana</>
+              <h1>Project 1</h1>
+              <p class="description">Menambahkan dua angka</>
           </div>
       </div>
       <hr/>
@@ -125,37 +125,11 @@
                 <button class="operator">+</button>
           </div>
           <div id="result">
-
               ...
           </div>
       </div>
     </div>
 
-    <script>
-        var result;
-        var input1;
-        var input2;
-
-        var allInput = document.getElementsByTagName('input')
-
-        for (var i = 0; i < allInput.length; i++) {
-            allInput[i].addEventListener('keyup', calculate, false);
-        }
-        
-        function calculate() {
-            if(this.name === 'input1') {
-                input1= this.value;
-            } if(this.name === 'input2') {
-                input2= this.value;
-            }
-            if(input1 && input2) {
-                result = parseInt(input1) + parseInt(input2);
-                document.getElementById('result').innerHTML = result
-            } else {
-                document.getElementById('result').innerHTML = '...'
-            }
-        }
-        
-    </script>
+    <script src="./add2numbers.js"></script>
   </body>
 </html>

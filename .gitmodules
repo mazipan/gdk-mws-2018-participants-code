@@ -1,3 +1,6 @@
+[submodule "MuslimAlFatih"]
+	path = MuslimAlFatih
+	url = https://github.com/muslimalfatih/gdk-2018.git
 [submodule "AhmadFakhruroziSyah"]
 	path = AhmadFakhruroziSyah
 	url = https://github.com/haifahrul/google-mws.git

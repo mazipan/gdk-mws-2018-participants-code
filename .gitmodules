@@ -7,3 +7,6 @@
 [submodule "RAdySuryaA"]
 	path = RAdySuryaA
 	url = https://github.com/ri7nz/mws18.git
+[submodule "DeriKurniawan"]
+	path = DeriKurniawan
+	url = https://github.com/DeriKurniawan/DeriKurniawanMWS.git

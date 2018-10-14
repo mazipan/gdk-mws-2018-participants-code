@@ -10,3 +10,6 @@
 [submodule "DeriKurniawan"]
 	path = DeriKurniawan
 	url = https://github.com/DeriKurniawan/DeriKurniawanMWS.git
+[submodule "MRizal"]
+	path = MRizal
+	url = https://github.com/hardzal/mobile-web-specialist-gdk2018

@@ -1,15 +1,15 @@
 [submodule "MuslimAlFatih"]
 	path = MuslimAlFatih
-	url = https://github.com/muslimalfatih/gdk-2018.git
+	url = https://github.com/muslimalfatih/gdk-2018
 [submodule "AhmadFakhruroziSyah"]
 	path = AhmadFakhruroziSyah
-	url = https://github.com/haifahrul/google-mws.git
+	url = https://github.com/haifahrul/google-mws
 [submodule "RAdySuryaA"]
 	path = RAdySuryaA
-	url = https://github.com/ri7nz/mws18.git
-[submodule "DeriKurniawan"]
-	path = DeriKurniawan
-	url = https://github.com/DeriKurniawan/DeriKurniawanMWS.git
+	url = https://github.com/ri7nz/mws18
 [submodule "MRizal"]
 	path = MRizal
 	url = https://github.com/hardzal/mobile-web-specialist-gdk2018
+[submodule "DeriKurniawan"]
+	path = DeriKurniawan
+	url = https://github.com/DeriKurniawan/DeriKurniawanMWS

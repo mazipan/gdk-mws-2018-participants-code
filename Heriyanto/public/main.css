@@ -1,0 +1,159 @@
+html, body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    margin: 0;
+}
+
+body {
+    display: grid;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+h3 {
+    margin: 0;
+}
+
+.container {
+    padding-top: 35px;
+    display: grid;
+    margin: auto;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 75px 125px 125px 125px 60px;
+    grid-gap: 8px;
+}
+
+.content:first {
+    margin-top: 200px;
+}
+
+.menu {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    grid-column: 1/5;
+    vertical-align: center;
+    padding-left: 25px;
+    background-color: #313e42;
+    color: #f6f6f6;
+    letter-spacing: .08rem;
+    /* margin-bottom: 25px; */
+} 
+
+.sidebar {
+    grid-row: 2/5;
+    grid-column-end: 1/2;
+}
+
+.sidebar .profile-pic {
+    width: 100px;
+    height: 100px;
+    /* border-radius: 15px; */
+    display: inline-block;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url('https://avatars0.githubusercontent.com/u/23172989?s=400&u=a4e0f330dde05e354601617152c1ec06c8b40d5f&v=4')
+}
+
+.menu .logo {
+    margin: 13px 0;
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(./images/logo.jpeg);
+    vertical-align: middle;
+}
+
+.menu h3 {
+    display: inline-block;
+    padding-left: 10px;
+    vertical-align: middle;
+}
+
+.content {
+    grid-column: 2/5;
+    text-align: left;
+    vertical-align: middle;
+    padding: 20px;
+    border: 2px solid #666;
+    cursor: pointer;
+    color: #666;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 14px;
+    display: table-cell;
+    vertical-align: middle;
+    padding-top: 45px;
+    padding-bottom: 45px;
+}
+
+
+.content:hover {
+    background-color: #313e42;
+    color: #f6f6f6;
+    /* border: 2px dashed #f6f6f6; */
+}
+
+.footer {
+    grid-column: 1/5;
+    grid-row : 5/5;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-color: #313e42;
+    color: #f6f6f6;
+    letter-spacing: .08rem;
+    text-align: center;
+    padding: 20px 0px;
+}
+
+
+
+@media screen and (min-width: 960px) {
+    .container {
+        width: 35%;
+        
+    }
+}
+
+@media screen and (max-width: 959px) {
+    .container {
+        width: 100%;
+    }
+    .container {
+        padding-top: 0;
+    }
+
+
+    .sidebar .profile-pic {
+        margin-left: 5px;
+    }
+
+    .content {
+        margin-right: 5px;
+    }
+
+    .footer {
+        letter-spacing: .08rem;
+        font-size: 13px;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 349px) {
+    .menu h3 {
+        font-size: 14px;
+    }
+
+    .logo {
+        width: 35px;
+        height: 35px;
+    }
+
+    .footer {
+        padding: 10px 0;
+    }
+}

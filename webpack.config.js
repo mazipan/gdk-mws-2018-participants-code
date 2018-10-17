@@ -99,6 +99,9 @@ module.exports = {
         NODE_ENV: '"'+NODE_ENV+'"'
       }
     }),
+    new CopyWebpackPlugin([
+      'participants.json',
+    ]),
     extractHTML,
     new MiniCssExtractPlugin({
       filename: "[name].[hash].css"

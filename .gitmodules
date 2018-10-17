@@ -13,3 +13,6 @@
 [submodule "DeriKurniawan"]
 	path = DeriKurniawan
 	url = https://github.com/DeriKurniawan/DeriKurniawanMWS
+[submodule "TobiasKusnaman"]
+	path = TobiasKusnaman
+	url = https://github.com/tobiaskusnaman/TobiasKusnamanMWS

@@ -16,3 +16,6 @@
 [submodule "DennyPradipta"]
 	path = DennyPradipta
 	url = https://github.com/dennydap/GoogleDeveloperKejarMWS
+[submodule "TobiasKusnaman"]
+	path = TobiasKusnaman
+	url = https://github.com/tobiaskusnaman/TobiasKusnamanMWS

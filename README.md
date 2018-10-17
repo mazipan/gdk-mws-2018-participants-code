@@ -13,6 +13,20 @@ Dokumentasi kode untuk Google Developer Kejar - Mobile Web Specialist 2018
 + Pastikan di `pull request` tersebut kalian sebutkan nama kalian di judul pull request-nya.
 + **Selamat Belajar!!!**
 
+## Menambahkan menggunakan `submodule`
+
++ Buat repository baru di akun kalian, dan tambahkan file disana
++ Tambahkan submodule di repo ini dengan cara:
+
+```shell
+# Run
+git submodule add [URL_REPOSITORY] FOLDER_NAME
+# Example
+git submodule add https://github.com/DeriKurniawan/DeriKurniawanMWS DeriKurniawan
+```
+
++ Buat pull request ke repo ini branch `master`
+
 ## Github Pages
 
 

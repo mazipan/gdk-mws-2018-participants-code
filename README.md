@@ -27,7 +27,13 @@ git submodule add https://github.com/DeriKurniawan/DeriKurniawanMWS DeriKurniawa
 
 + Buat pull request ke repo ini branch `master`
 
+## Development Web 
+
++ `yarn run dev` untuk development di lokal
++ `yarn run dist` untuk menmbuat file production
+
 ## Jangan lupa untuk tekan ⭐ pada repository ini
+
 
 --------
 

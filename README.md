@@ -27,12 +27,13 @@ git submodule add https://github.com/DeriKurniawan/DeriKurniawanMWS DeriKurniawa
 
 + Buat pull request ke repo ini branch `master`
 
-## Github Pages
+## Development Web 
 
-
-Repository ini sudah ter-setup Github Pages pada branch master yang bisa kalian akses di https://mazipan.github.io/gdk-mws-2018-participants-code/, jadi bila kalian membutuhkan demo untuk file kalian bisa langsung akses setelah code selesai di merge ke branch master, misalnya https://mazipan.github.io/gdk-mws-2018-participants-code/IrfanMaulana
++ `yarn run dev` untuk development di lokal
++ `yarn run dist` untuk menmbuat file production
 
 ## Jangan lupa untuk tekan ⭐ pada repository ini
+
 
 --------
 

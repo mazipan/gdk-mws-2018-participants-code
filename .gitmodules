@@ -13,3 +13,6 @@
 [submodule "DeriKurniawan"]
 	path = DeriKurniawan
 	url = https://github.com/DeriKurniawan/DeriKurniawanMWS
+[submodule "DennyPradipta"]
+	path = DennyPradipta
+	url = https://github.com/dennydap/GoogleDeveloperKejarMWS

@@ -32,7 +32,7 @@ git submodule update --recursive
 ## Development Web 
 
 + `yarn run dev` untuk development di lokal
-+ `yarn run dist` untuk menmbuat file production
++ `yarn run dist` untuk membuat file production
 
 ## Jangan lupa untuk tekan ⭐ pada repository ini
 

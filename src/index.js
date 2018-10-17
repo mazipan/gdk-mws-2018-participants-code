@@ -1,0 +1,1 @@
+console.log('welcome to GDK MWS 2018 Participants Code');

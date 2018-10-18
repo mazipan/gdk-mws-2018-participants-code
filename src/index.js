@@ -18,7 +18,7 @@ fetch(ROOT + 'participants.json')
         <td>${fasilitator}</td>
         <td>${name}</td>
         <td>${email}</td>
-        <td><a href="${firebase_link}">${firebase_link}</a></td>
+        <td><a href="${firebase_link}" target="_blank" rel="noopener">${firebase_link}</a></td>
       `
 
       tableBody.appendChild(tableRow)

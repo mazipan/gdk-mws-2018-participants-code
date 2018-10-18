@@ -5,6 +5,6 @@
 + Name: Rizesky
 + Email: siallaganrizesky@gmail.com
 + Github: [rizesky](https://github.com/rizesky)
-+ Test  : rizeskymws2018.firebaseapp.com
++ Test  : https://rizeskymws2018.firebaseapp.com
 
 ## Cheers!!!

@@ -23,11 +23,19 @@ Dokumentasi kode untuk Google Developer Kejar - Mobile Web Specialist 2018
 git submodule add [URL_REPOSITORY] FOLDER_NAME
 # Example
 git submodule add https://github.com/DeriKurniawan/DeriKurniawanMWS DeriKurniawan
+# Update Submodule
+git submodule update --recursive
 ```
 
 + Buat pull request ke repo ini branch `master`
 
+## Development Web 
+
++ `yarn run dev` untuk development di lokal
++ `yarn run dist` untuk membuat file production
+
 ## Jangan lupa untuk tekan ⭐ pada repository ini
+
 
 --------
 

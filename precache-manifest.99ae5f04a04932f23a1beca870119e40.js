@@ -12,17 +12,17 @@ self.__precacheManifest = [
     "url": "/gdk-mws-2018-participants-code/manifest.json.gz"
   },
   {
-    "revision": "51e3ef726664b2586562cc37777abad5",
+    "revision": "6deb4a74d46816e94ebc0d25acef6434",
     "url": "/gdk-mws-2018-participants-code/index.html.gz"
   },
   {
-    "revision": "2a2c947a5b353260bb938b44699faba6",
+    "revision": "b45aeae2c23e792e7c05b41901dccad2",
     "url": "/gdk-mws-2018-participants-code/index.html"
   },
   {
-    "url": "/gdk-mws-2018-participants-code/app.3beee9dd71f446d66b4f.js.gz"
+    "url": "/gdk-mws-2018-participants-code/app.2a380aa395c3af436fe2.js.gz"
   },
   {
-    "url": "/gdk-mws-2018-participants-code/app.3beee9dd71f446d66b4f.js"
+    "url": "/gdk-mws-2018-participants-code/app.2a380aa395c3af436fe2.js"
   }
 ];

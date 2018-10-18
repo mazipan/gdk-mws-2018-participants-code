@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.2/workbox-sw.js");
 
 importScripts(
-  "/gdk-mws-2018-participants-code/precache-manifest.69a0d133dc8ca7507f76c752973b15f2.js"
+  "/gdk-mws-2018-participants-code/precache-manifest.99ae5f04a04932f23a1beca870119e40.js"
 );
 
 /**

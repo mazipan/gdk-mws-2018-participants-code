@@ -1,13 +1,19 @@
 [
   {
     "fasilitator": "Irfan Maulana",
+    "name": "Ahmad Fakhrurozi S",
+    "email": "haifahrul@gmail.com",
+    "firebase_link": "https://haifahrul-mws.firebaseapp.com"
+  },
+  {
+    "fasilitator": "Irfan Maulana",
     "name": "Alim Abdul Jabbar",
     "email": "alimabduljabbar1746@gmail.com",
     "firebase_link": "https://belajar-firebase-dong.firebaseapp.com"
   },
   {
     "fasilitator": "Irfan Maulana",
-    "name": "ardi wirawan",
+    "name": "Ardi Wirawan",
     "email": "ardi.wirawan26@gmail.com",
     "firebase_link": ""
   },
@@ -16,6 +22,18 @@
     "name": "Bayu Syaits Dhin Anwar",
     "email": "bayusyaits@gmail.com",
     "firebase_link": "https://mws-bayusyaits.firebaseapp.com/"
+  },
+  {
+    "fasilitator": "Irfan Maulana",
+    "name": "Carolina Ratna Sari",
+    "email": "carolinaratnasari@gmail.com",
+    "firebase_link": "https://carolinamws-f5e64.firebaseapp.com"
+  },
+  {
+    "fasilitator": "Irfan Maulana",
+    "name": "Christoper Rulita",
+    "email": "christopher.rulita23@gmail.com",
+    "firebase_link": "https://projek-christopher.firebaseapp.com"
   },
   {
     "fasilitator": "Irfan Maulana",
@@ -37,6 +55,12 @@
   },
   {
     "fasilitator": "Irfan Maulana",
+    "name": "Dhody Rahmad Hidayat",
+    "email": "dhodyrhmd@gmail.com",
+    "firebase_link": "https://dhodyrhmd-mws.firebaseapp.com"
+  },
+  {
+    "fasilitator": "Irfan Maulana",
     "name": "Didik Mulyadi",
     "email": "didikmulyadi12@gmail.com",
     "firebase_link": "https://mobilewebspecialistdidik.firebaseapp.com"
@@ -46,6 +70,12 @@
     "name": "Dimas Priyo Nugroho",
     "email": "dimaspriyongrh@gmail.com",
     "firebase_link": "https://dims-b45ef.firebaseapp.com"
+  },
+  {
+    "fasilitator": "Irfan Maulana",
+    "name": "Dimateo",
+    "email": "dimateo.mon123@gmail.com",
+    "firebase_link": "https://dimateo-mws.firebaseapp.com"
   },
   {
     "fasilitator": "Irfan Maulana",
@@ -73,7 +103,7 @@
   },
   {
     "fasilitator": "Irfan Maulana",
-    "name": "heru hartanto",
+    "name": "Heru Hartanto",
     "email": "heruhartanto110291@gmail.com",
     "firebase_link": ""
   },
@@ -133,7 +163,7 @@
   },
   {
     "fasilitator": "Irfan Maulana",
-    "name": "rizesky siallagan",
+    "name": "Rizesky Siallagan",
     "email": "siallaganrizesky@gmail.com",
     "firebase_link": "https://rizeskymws2018.firebaseapp.com/"
   },
@@ -160,35 +190,5 @@
     "name": "Wardiman Perdian",
     "email": "wardimanperdian@gmail.com",
     "firebase_link": "https://mobile-web-specialist-ce4ef.firebaseapp.com"
-  },
-  {
-    "fasilitator": "Irfan Maulana",
-    "name": "Carolina Ratna Sari",
-    "email": "carolinaratnasari@gmail.com",
-    "firebase_link": "https://carolinamws-f5e64.firebaseapp.com"
-  },
-  {
-    "fasilitator": "Irfan Maulana",
-    "name": "Ahmad Fakhrurozi S",
-    "email": "haifahrul@gmail.com",
-    "firebase_link": "https://haifahrul-mws.firebaseapp.com"
-  },
-  {
-    "fasilitator": "Irfan Maulana",
-    "name": "Dhody Rahmad Hidayat",
-    "email": "dhodyrhmd@gmail.com",
-    "firebase_link": "https://dhodyrhmd-mws.firebaseapp.com"
-  },
-  {
-    "fasilitator": "Irfan Maulana",
-    "name": "Dimateo",
-    "email": "dimateo.mon123@gmail.com",
-    "firebase_link": "https://dimateo-mws.firebaseapp.com"
-  },
-  {
-    "fasilitator": "Irfan Maulana",
-    "name": "Christoper Rulita",
-    "email": "christopher.rulita23@gmail.com",
-    "firebase_link": "https://projek-christopher.firebaseapp.com"
   }
 ]

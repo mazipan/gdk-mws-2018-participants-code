@@ -118,6 +118,7 @@
 						<th>Name</th>
 						<th>Email</th>
 						<th>Firebase Link</th>
+						<th>Offline Web</th>
 					</tr>
 				</thead>
 				<tbody class="table-body">
@@ -144,9 +145,11 @@
 		</div>
 	</footer>
 
-	<script>
-		"serviceWorker"in navigator&&window.addEventListener("load",function(){navigator.serviceWorker.register("<%= webpackConfig.output.publicPath %>service-worker.js")});
-	</script>
+	<% if (webpackConfig.output.publicPath !== '/') { %>
+		<script>
+			"serviceWorker"in navigator&&window.addEventListener("load",function(){navigator.serviceWorker.register("<%= webpackConfig.output.publicPath %>service-worker.js")});
+		</script>
+	<% } %>
 </body>
 
 </html>

@@ -39,6 +39,33 @@ const extractHTML = new HtmlWebpackPlugin({
   environment: process.env.NODE_ENV
 });
 
+let plugins = [
+  new webpack.DefinePlugin({
+    'process.env': {
+      isStaging: (isDev() || NODE_ENV === 'staging'),
+      NODE_ENV: '"'+NODE_ENV+'"'
+    }
+  }),
+  extractHTML,
+];
+
+if (!isDev()) {
+  plugins = [].concat(plugins)
+  .concat([
+    new MiniCssExtractPlugin({
+      filename: "[name].[hash].css"
+    }),
+    new CopyWebpackPlugin([
+      'participants.json',
+      'manifest.json',
+    ]),
+    new CompressionPlugin({
+      algorithm: 'gzip'
+    }),
+    new GenerateSW()
+  ])
+}
+
 module.exports = {
   entry: {
     app: './src/index.js'
@@ -93,24 +120,5 @@ module.exports = {
       }
     ]
   },
-  plugins: [
-    new webpack.DefinePlugin({
-      'process.env': {
-        isStaging: (isDev() || NODE_ENV === 'staging'),
-        NODE_ENV: '"'+NODE_ENV+'"'
-      }
-    }),
-    new CopyWebpackPlugin([
-      'participants.json',
-      'manifest.json',
-    ]),
-    extractHTML,
-    new MiniCssExtractPlugin({
-      filename: "[name].[hash].css"
-    }),
-    new CompressionPlugin({
-      algorithm: 'gzip'
-    }),
-    new GenerateSW()
-  ]
+  plugins
 }

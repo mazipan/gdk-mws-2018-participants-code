@@ -1,10 +1,10 @@
 self.__precacheManifest = [
   {
-    "revision": "817e7774c4c965e99e1f06c786b3fbc1",
+    "revision": "6c2abcea24770700b8ad04cbd24b0d2b",
     "url": "/gdk-mws-2018-participants-code/participants.json.gz"
   },
   {
-    "revision": "bc6c6a5aff74910a6af911671cff9264",
+    "revision": "c3a6e4df97072fab76fe43409cc4c648",
     "url": "/gdk-mws-2018-participants-code/participants.json"
   },
   {
@@ -12,17 +12,17 @@ self.__precacheManifest = [
     "url": "/gdk-mws-2018-participants-code/manifest.json.gz"
   },
   {
-    "revision": "eae2655432ffa51eb9dbf692f63736ea",
+    "revision": "5f82321427ade5eeb66d7d7f976f9412",
     "url": "/gdk-mws-2018-participants-code/index.html.gz"
   },
   {
-    "revision": "97d77210aff27b08a513da0ad0fcc54d",
+    "revision": "720600e2f41545281d06853c0df58876",
     "url": "/gdk-mws-2018-participants-code/index.html"
   },
   {
-    "url": "/gdk-mws-2018-participants-code/app.5913e2edf817d97b2989.js.gz"
+    "url": "/gdk-mws-2018-participants-code/app.665505e91af46f9b5751.js.gz"
   },
   {
-    "url": "/gdk-mws-2018-participants-code/app.5913e2edf817d97b2989.js"
+    "url": "/gdk-mws-2018-participants-code/app.665505e91af46f9b5751.js"
   }
 ];

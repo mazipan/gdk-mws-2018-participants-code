@@ -1,0 +1,92 @@
+<html>
+<head>
+    
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css" integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA==" crossorigin=""/>
+    <script src="https://unpkg.com/leaflet@1.3.4/dist/leaflet.js" integrity="sha512nMMmRyTVoLYqjP9hrbed9S+FzjZHW5gY1TWCHA5ckwXZBadntCNs8kEqAWdrb9O7rxbCaA4lKTIWjDXZxflOcA==" crossorigin=""></script>        
+    
+    <style>
+        .container {
+            width: 100%;
+            
+            display: grid;
+            grid-template-columns: 25% 25% 25% 25%;
+            grid-template-rows: 30px 150px 150px 150px 30px;
+            grid-gap: 4px;
+        }
+        .menu {
+            background: lightblue;
+            grid-column-start: 1;
+            grid-column-end: 5;
+        }
+        .sidebar {
+            background: lightyellow;
+            grid-row: 2/5;
+            grid-column-end: 1/2;
+        }
+        .konten {
+            background: pink;
+            grid-column: 2/5;
+        }
+        .footer {
+            background: lime;
+            grid-column: 1/5;
+            grid-row: 5/5;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class='menu' style="vertical-align: middle;text-align: center">Menu</div>
+        <div class='sidebar'><img src="images/sidebar.jpeg" width="100%"></div>
+        <div class='konten'><a href="https://dims-b45ef.firebaseapp.com/project1">Project 1 (Kalkulator) </a></a> </div>
+        <div class='konten' id="mapid">
+            
+            
+            <script>
+                mapboxgl.accessToken = '<your access token here>';
+                    
+                    var monument = [-77.0353, 38.8895];
+                    var map = new mapboxgl.Map({
+                        container: 'map',
+                        style: 'mapbox://styles/mapbox/light-v9',
+                        center: monument,
+                        zoom: 15
+                    });
+                    
+                    // create the popup
+                    
+                    
+                    // create the marker
+                    new mapboxgl.Marker(el)
+                    .setLngLat(monument)
+                    .setPopup(popup) // sets a popup on this marker
+                    .addTo(map);
+                    
+                </script>
+                
+                <script>
+                    var mymap = L.map('mapid').setView([-6.175392,106.827153], 14);
+                    L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={accessToken}', 
+                    {attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors,\
+                    <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
+                    maxZoom: 20,
+                    id: 'mapbox.streets',
+                    accessToken:
+                    'pk.eyJ1IjoicHJvdHJhZnJlZSIsImEiOiJjam1rcjkyMnQwMGlxM29xY3Y4eDdvcXBtIn0.Urhnk3kV5aFGG1FBfyylYQ'
+                }).addTo(mymap);
+                
+                
+                let popup = L.popup()
+                .setLatLng([-6.175392, 106.827153,])
+                .setContent("Monumen Nasional Indonesia<br> <a href=\"..\\mapbox\">Project Details</a>")
+                .openOn(mymap);
+                
+            </script>
+        </div>
+        
+        
+        <div class='konten'>Konten 3</div>
+        <div class='footer'>Dimas Priyo Nugroho</div>
+    </div>
+</body>
+</html>

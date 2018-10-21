@@ -1,0 +1,19 @@
+                .container {
+                        display: grid;
+                        height: 100%;
+                        grid-gap: 4px;
+                        grid-template-columns: repeat(8,1fr);
+                        grid-template-rows: 60% 40%;
+                }
+                .peta {
+                        grid-column: 1/-1;
+                }
+                .gambar {
+                        background: green;
+                        grid-column: 1/6;
+                }
+                .review {
+                        text-align: justify;
+                        background: yellow;
+                        grid-column:6/-1;
+                }

@@ -13,5 +13,12 @@ script:
 
   - npm run build
 
-  - npm run publish-demo
+  - npm run publish-demo
 
+deploy:
+  provider: pages
+  skip-cleanup: true
+  github-token: $GITHUB_TOKEN  # Set in the settings page of your repository, as a secure variable
+  keep-history: true
+  on:
+    branch: master

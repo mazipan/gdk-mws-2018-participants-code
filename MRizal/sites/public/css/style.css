@@ -1,0 +1,131 @@
+/* mobile web specialist */
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #24252a;
+}
+a:link {
+    color: #2980B9;
+    text-decoration: none;
+    transition: color .3s ease-in-out;
+    -webkit-transition: color .3s ease-in-out;
+    -moz-transition: color .3s ease-in-out;
+}
+a:visited {
+    color: black;
+}
+a:hover {
+    color: #E74C3C;
+}
+a:active {
+    text-decoration: line-through;
+    color: white;
+}
+
+img {
+    max-width: 100%;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 40px 100px 100px 100px 40px;
+    grid-gap: 5px;
+}
+
+.menu {
+    background-color: #2980b9;
+    grid-column: 1/5;
+    overflow: hidden;
+    padding-top: 5px;
+    margin: 0;
+}
+
+.menu li a {
+    color: black;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    padding: 0 15px;
+}
+
+.menu a img {
+    width: 30px;
+}
+
+.menu ul {
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+
+.menu li {
+      display: inline-block;
+}
+
+.sidebar {
+    background-color: #2980b9;
+    grid-row: 2/5;
+    grid-column: 1/2;
+    overflow: hidden;
+    position: relative;
+    top: 5%;
+    left: 3%;
+    width: 80%;
+    height: 90%;
+}
+
+.sidebar img {
+    width: 70%;
+    position: relative;
+    left: 15%;
+    top: 5%;
+    border: 1px solid #fff;
+    padding: 5px;
+    background-color: white;
+    border-radius: 5px;
+    transition: all .2s ease-in-out;
+    -webkit-transition: all .3s ease-in-out;
+}
+
+.sidebar img:hover {
+    box-shadow: 0 0 2px 1px rgba(7, 182, 240, 0.5);
+    cursor: pointer;
+}
+
+.konten a {
+    color: white;
+    text-transform: uppercase;
+}
+
+.konten {
+    background-color: #ECF0F1;
+    grid-column: 2/5;
+    padding: 20px;
+    text-align: center;
+}
+
+
+.konten h2 {
+    display: inline-block;
+    padding-bottom: 5px;
+}
+
+.footer {
+    color: white;
+    background-color: #2C3E50;
+    grid-column: 1/5;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-transform: Capitalize;
+    letter-spacing: 3px;
+    overflow: hidden;
+}
+
+@media screen and (max-width: 550px) {
+
+}

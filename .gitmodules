@@ -1,0 +1,21 @@
+[submodule "MuslimAlFatih"]
+	path = MuslimAlFatih
+	url = https://github.com/muslimalfatih/gdk-2018
+[submodule "AhmadFakhruroziSyah"]
+	path = AhmadFakhruroziSyah
+	url = https://github.com/haifahrul/google-mws
+[submodule "RAdySuryaA"]
+	path = RAdySuryaA
+	url = https://github.com/ri7nz/mws18
+[submodule "MRizal"]
+	path = MRizal
+	url = https://github.com/hardzal/mobile-web-specialist-gdk2018
+[submodule "DeriKurniawan"]
+	path = DeriKurniawan
+	url = https://github.com/DeriKurniawan/DeriKurniawanMWS
+[submodule "DennyPradipta"]
+	path = DennyPradipta
+	url = https://github.com/dennydap/GoogleDeveloperKejarMWS
+[submodule "TobiasKusnaman"]
+	path = TobiasKusnaman
+	url = https://github.com/tobiaskusnaman/TobiasKusnamanMWS

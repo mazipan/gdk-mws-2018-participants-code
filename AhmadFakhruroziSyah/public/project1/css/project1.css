@@ -1,0 +1,53 @@
+.calculate {
+  background: #ffffff;
+  margin-bottom: 20px;
+  padding-top: 20px;
+  color: #303f9f;
+}
+
+.calculate input {
+  font-size: 1.2em;
+  margin-bottom: 10px;
+  line-height: 30px;
+  font-size: 25px;
+  width: 150px;
+  text-align: center;
+}
+
+.calculate input[type="number"]::-webkit-inner-spin-button,
+.calculate input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.calculate .operator {
+  margin-bottom: 20px;
+}
+
+.calculate .operator .line {
+  border: 1px solid #303f9f;
+  width: 175px;
+  height: 0;
+  margin-top: 5px;
+  margin-right: 10px;
+}
+
+.calculate .operator .icon-plus {
+  font-size: 14px;
+}
+
+.calculate .result {
+  margin-top: 10px;
+  padding: 10px;
+  background: #536dfe;
+  color: #ffffff;
+  text-align: center;
+  font-size: 1.6em;
+  font-weight: bold;
+}
+
+.result {
+  background: #c5cae9;
+  color: #303f9f;
+}
+/*# sourceMappingURL=project1.css.map */

@@ -1,0 +1,53 @@
+@import "../../css/_common.scss";
+
+.calculate {
+  background: $color-white;
+  margin-bottom: 20px;
+  padding-top: 20px;
+  color: $primary-color-dark;
+  // padding-bottom: 10px;
+  input {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    line-height: 30px;
+    font-size: 25px;
+    width: 150px;
+    text-align: center;
+  }
+  input[type="number"]::-webkit-inner-spin-button,
+  input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+  .operator {
+    margin-bottom: 20px;
+    .line {
+      border: 1px solid $primary-color-dark;
+      width: 175px;
+      height: 0;
+      margin-top: 5px;
+      margin-right: 10px;
+    }
+    .icon-plus {
+      font-size: 14px;
+    }
+  }
+
+  .result {
+    margin-top: 10px;
+    padding: 10px;
+    background: $accent-color;
+    color: $color-white;
+    text-align: center;
+    font-size: 1.6em;
+    font-weight: bold;
+    #result {
+      // color: $color-white;
+    }
+  }
+}
+
+.result {
+  background: $primary-color-light;
+  color: $primary-color-dark;
+}

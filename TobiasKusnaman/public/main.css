@@ -1,0 +1,60 @@
+body {
+  margin: 0;
+}
+.container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 50px repeat(3, calc(100vh/3 - calc(100px/3))) 50px;
+  grid-gap: 4px;
+  width: 100%;
+}
+.menu {
+  background: lightblue;
+  grid-column: 1/5;
+}
+.sidebar {
+  background: lightyellow;
+  grid-column: 1/2;
+  grid-row: 2/5;
+}
+.konten {
+  background: pink;
+  grid-column: 2/5;
+  display: flex;
+  align-items: center;
+}
+.calc {
+  background: lightcoral;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  align-items: center;
+  height: 100px;
+  width: 100%;
+}
+.calc .calc-child {
+  display: flex;
+  justify-content: center;
+}
+.footer {
+  background: lime;
+  grid-column: 1/5;
+}
+.map {
+  display: grid;
+  height: 100%;
+  width: 100%;
+  grid-gap: 4px;
+  grid-template-columns: repeat(8, 1fr);
+  grid-template-rows: 60% 40%;
+}
+.peta {
+  grid-column: 1/-1
+}
+.gambar {
+  background: green;
+  grid-column: 1/6;
+}
+.review {
+  background: yellow;
+  grid-column: 6/-1
+}

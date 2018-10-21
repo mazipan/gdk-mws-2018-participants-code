@@ -1,0 +1,22 @@
+{
+  "name": "Denny Pradipta GDK",
+  "short_name": "Denny GDK",
+  "description": "Selamat datang di halaman Mobile Web Specialist 2018 milik Denny Pradipta",
+  "background_color": "#738E9C",
+  "theme_color": "#738E9C",
+  "display": "standalone",
+  "Scope": "/",
+  "start_url": "/",
+  "icons": [
+    {
+    "src": "images/logo.png",
+    "sizes": "256x256",
+    "type": "image/png"
+    },
+    {
+      "src": "images/logo.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

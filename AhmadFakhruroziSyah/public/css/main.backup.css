@@ -1,0 +1,90 @@
+body {
+  /* background: #eceff1; */
+  color: rgba(0, 0, 0, 0.87);
+  font-family: Roboto, Helvetica, Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: grid;
+  /* grid-template-columns: 100px 100px 100px 100px; */
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 40px 100px 100px 100px 90px;
+  /* grid-template-rows: repeat(3, 33.3vh); */
+  grid-gap: 4px;
+  width: 100%;
+}
+
+.sidebar {
+  display: flex;
+  background: #88f3cd;
+  grid-row: 2/5;
+  grid-column: 1/2;
+  justify-content: center;
+  align-items: center;
+}
+
+.avatar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  /* height: 50%; */
+}
+
+.avatar img {
+  width: 100%;
+  /* height: 100%; */
+}
+
+.box {
+  color: #ffffff;
+  font-size: 2em;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 500;
+}
+
+.text-center {
+  align-items: center;
+  display: flex;
+}
+
+.align-center {
+  justify-content: center;
+  display: flex;
+}
+
+.header-icon {
+  font-size: 20px;
+  padding: 0 5px 0 5px;
+}
+
+.header {
+  display: flex;
+  background: #59f7fa;
+  /* Sebelum disederhanakan */
+  /* grid-column-start: 1;
+  grid-column-end: 4; */
+  /* grid-column-start & grid-column-end 
+   * dapat disederhanakan seperti code dibawah ini
+   */
+  grid-column: 1/5;
+  padding: 10px;
+}
+
+.header-title {
+  font-size: 18px;
+}
+
+.content {
+  background: #abf2b6;
+  grid-column: 2/5;
+}
+
+.footer {
+  background: #010e28;
+  grid-column: 1/5;
+  grid-row: 5/5;
+  padding: 15px;
+}

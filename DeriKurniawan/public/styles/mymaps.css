@@ -1,0 +1,39 @@
+html, body {
+    width: 100vw;
+    height: 100%;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    display: grid;
+    display: -ms-grid;
+    height: 100%;
+    grid-gap: 4px;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: 60% 40%;
+}
+
+.peta {
+    grid-column: 1/-1; /* - (minus) for calculate automaticaly last grid number */
+    -ms-grid-column: 1/-1;
+}
+
+.gambar {
+    background-color: green;
+    grid-column: 1/6;
+    -ms-grid-column: 1/6;
+}
+
+.review {
+    background-color: yellow;
+    grid-column: 6/-1;
+    -ms-grid-column: 6/-1;
+}

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i" rel="stylesheet">
+    <link rel="stylesheet" href="./styles/grid.css">
+    <title>Codemee | derry</title>
+</head>
+<body>
+    <div class="container">
+        <div class="menu">
+            <img src="./assets/icons/diamond.svg" alt="logo" width="50px" height="50px">
+            <div>Codemee Derry</div>
+        </div>
+        <div class="sidebar">
+            <div class="profile">
+                <img src="./assets/images/profile.jpg" alt="profile" width="100px" height="100px">
+            </div>
+        </div>
+        <div class="konten">
+            <div class="box" onclick="window.location.href = './equals.html';">
+                <div class="title">
+                    <span>Latihan 2 | Menjumlahkan 2 angka</span>
+                </div>
+            </div>
+        </div>
+        <div class="konten" onclick="window.location.href = './mapbox.html';">
+            <div class="box">
+                <div class="title">
+                    <span>Latihan 3 | Mapbox Leaflet</span>
+                </div>
+            </div>
+        </div>
+        <div class="konten">
+            <div class="box" onclick="window.location.href = './index.html';">
+                <div class="title">
+                    <span>Latihan 1 | Home</span>
+                </div>
+            </div>
+        </div>
+        <div class="footer">&nbsp; &nbsp; Created By @Deri Kurniawan</div>
+    </div>
+
+    <script>
+    document.addEventListener('DOMContentLoaded', function() {
+        // // The Firebase SDK is initialized and available here!
+        //
+        // firebase.auth().onAuthStateChanged(user => { });
+        // firebase.database().ref('/path/to/ref').on('value', snapshot => { });
+        // firebase.messaging().requestPermission().then(() => { });
+        // firebase.storage().ref('/path/to/ref').getDownloadURL().then(() => { });
+        //
+
+        try {
+        let app = firebase.app();
+        let features = ['auth', 'database', 'messaging', 'storage'].filter(feature => typeof app[feature] === 'function');
+        console.log(`Firebase SDK loaded with ${features.join(', ')}`);
+        } catch (e) {
+        console.error(e);
+        console.log('Error loading the Firebase SDK, check the console.');
+        }
+    });
+    </script>
+</body>
+</html>

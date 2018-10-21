@@ -1,0 +1,65 @@
+body {
+  font-family: 'Cutive Mono', monospace;
+  /* background-color: #00caff; */
+  background-color: #f6f9fc;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="button"] {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background-color: white;
+  border: 1px solid #d1d1d1;
+  border-radius: 3px;
+  box-shadow: none;
+  box-sizing: inherit;
+  padding: 5px;
+}
+
+input[type="text"]:focus,
+input[type="number"]:focus,
+input[type="button"]:focus {
+  border-color: #00caff;
+  outline: 0;
+}
+
+input[readonly] {
+  cursor: not-allowed;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.container h1 {
+  margin-bottom: 0;
+}
+
+.input-container {
+  margin: 10px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.input-container input {
+  margin: 0 10px;
+  width: 25px;
+  text-align: center;
+}
+
+.input-container button {
+  margin: 0 5px;
+}
+
+.error-message {
+  margin: 0;
+  color: #e73c6b;
+}

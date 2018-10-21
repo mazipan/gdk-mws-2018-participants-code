@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="description" content="Google Developer Kejar Mobile Web Specialist">
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/icons/icon-google-mobile/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/icons/icon-google-mobile/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/icons/icon-google-mobile/favicon-16x16.png">
+  <link rel="manifest" href="/manifest.json">
+  <link rel="mask-icon" href="/images/icons/icon-google-mobile/safari-pinned-tab.svg" color="#5bbad5">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="theme-color" content="#303f9f">
+  <link rel="stylesheet" href="css/fontawesome-free/css/all.min.css">
+  <link rel="stylesheet" href="css/main.min.css">
+  <title>AFS</title>
+</head>
+
+<body>
+  <div class="main">
+    <div class="header align-center" w3-include-html="header.html"></div>
+    <div class='sidebar'>
+      <div class="avatar">
+        <img src="./images/avatar.png" alt="avatar">
+      </div>
+    </div>
+    <div class='content box'>
+      <a class="text-center" href="./project1/index.html">
+        <i class="fas fa-calculator fa-2x"></i>
+        <div class="title">Menambahkan Dua Angka</div>
+      </a>
+    </div>
+    <div class='content box'>
+      <a class="text-center" href="./project2/index.html">
+        <i class="fas fa-map fa-2x"></i>
+        <div class="title">Lokasi Istimewa dengan Mapbox</div>
+      </a>
+    </div>
+    <div class='content box'>
+      <a class="text-center" href="./my-course/index.html">
+        <i class="fas fa-book fa-2x"></i>
+        <div class="title">My Course</div>
+      </a>
+    </div>
+    <div class='footer align-center text-center' w3-include-html="footer.html"></div>
+  </div>
+
+  <!-- <script src="https://www.gstatic.com/firebasejs/5.5.0/firebase.js"></script>
+  <script>
+    // Initialize Firebase
+    var config = {
+      apiKey: "AIzaSyCkcfw-btMyxc5yPZSp2Lj8LzbG3eK7Nzo",
+      authDomain: "haifahrul-mws.firebaseapp.com",
+      databaseURL: "https://haifahrul-mws.firebaseio.com",
+      projectId: "haifahrul-mws",
+      storageBucket: "haifahrul-mws.appspot.com",
+      messagingSenderId: "858158390197"
+    };
+    firebase.initializeApp(config);
+  </script> -->
+  <script src="/js/app.min.js"></script>
+  <script>
+    includeHTML();
+  </script>
+  <script>
+    (function () {
+      if ('serviceWorker' in navigator) {
+        navigator.serviceWorker.register('/sw.js')
+          .then(() => console.log('Service Worker Registered'))
+          .catch((error) => console.log('Registration Failed', error))
+      } else {
+        console.log('Service worker are not supported.')
+      }
+    })()
+  </script>
+</body>
+
+</html>

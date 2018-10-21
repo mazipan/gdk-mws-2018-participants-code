@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title> Codemee+ | Deri </title>
+
+    <!-- add font awesome stylesheet fontawesome -->
+    <link rel="stylesheet" href="./fontawesome/css/all.css" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="./styles/style.css" type="text/css">
+
+    <!-- update the version number as needed -->
+    <script defer src="/__/firebase/5.5.0/firebase-app.js"></script>
+
+    <!-- include only the Firebase features as you need -->
+    <script defer src="/__/firebase/5.5.0/firebase-auth.js"></script>
+    <script defer src="/__/firebase/5.5.0/firebase-database.js"></script>
+    <script defer src="/__/firebase/5.5.0/firebase-messaging.js"></script>
+    <script defer src="/__/firebase/5.5.0/firebase-storage.js"></script>
+
+    <!-- initialize the SDK after all desired features are loaded -->
+    <script defer src="/__/firebase/init.js"></script>
+
+  </head>
+  <body>
+    <header>
+      <nav>
+
+        <div class="bt-nav">
+          <div role="button" class="bnav">
+            <i class="far fa-bars"></i>
+          </div>
+        </div>
+
+        <div class="fo-disp">
+
+          <div class="tit-ot">
+            <div class="t-disp">
+              <div class="o76Hn">Codemee+</div>
+              <div class="o76Br" onclick="window.location.href = './index.html';">Home</div>
+            </div>
+          </div>
+
+          <div class="os-eRT">
+            <div class="di09t">
+              <div class="di09t-ic"><i class="fal fa-search"></i></div>
+              <div class="se-at">
+                <input placeholder="Search on Codemee+" id="se-t0909" autofill="off">
+              </div>
+            </div>
+          </div>
+
+          <div class="right-li567">
+            <div class="co-right">
+              <div class="bt-right">
+                <div role="button" class="bt-ic0909"><i class="fas fa-cog"></i></div>
+                <div role="button" class="bt-ic0909"><i class="fas fa-bell"></i></div>
+                <div role="button" class="bt-ic0909"><i class="fas fa-user-circle"></i></div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </nav>
+
+    </header>
+
+    <main class="main">
+
+      <div class="box-mix">
+        <div class="equals-container">
+            <input type="text" name="first-number" id="first-number" placeholder="input first number ..."/>
+            <span class="button">+</span>
+            <input type="text" name="last-number" id="last-number" placeholder="input last number ..." />
+            <span class="button action" onclick="summary();">Equals To</span>
+        </div>
+  
+        <div class="equals-container">
+          <textarea class="summary" disabled>0</textarea>
+        </div>
+      </div>
+
+    </main>
+    
+    <script src="./scripts/source.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+          // // The Firebase SDK is initialized and available here!
+          //
+          // firebase.auth().onAuthStateChanged(user => { });
+          // firebase.database().ref('/path/to/ref').on('value', snapshot => { });
+          // firebase.messaging().requestPermission().then(() => { });
+          // firebase.storage().ref('/path/to/ref').getDownloadURL().then(() => { });
+          //
+  
+          try {
+            let app = firebase.app();
+            let features = ['auth', 'database', 'messaging', 'storage'].filter(feature => typeof app[feature] === 'function');
+            console.log(`Firebase SDK loaded with ${features.join(', ')}`);
+          } catch (e) {
+            console.error(e);
+            console.log('Error loading the Firebase SDK, check the console.');
+          }
+        });
+      </script>
+  </body>
+</html>

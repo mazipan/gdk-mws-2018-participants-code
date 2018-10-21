@@ -1,0 +1,185 @@
+@import "_common.scss";
+
+body {
+  background: $grey-color;
+  color: $color-white;
+  font-family: $main-font;
+  margin: 0;
+  padding: 0;
+}
+
+.main {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 10vh 15vh 13vh;
+  grid-gap: 4px;
+  width: 100%;
+  height: 100%;
+}
+
+.title {
+  color: $primary-text-color;
+  font-weight: bold;
+  font-size: 18px;
+  margin: 20px;
+}
+
+.wrap {
+  display: block;
+  grid-column: 1/5;
+  grid-row: 2/5;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.box {
+  color: $primary-text-color;
+  font-family: $main-font;
+  padding: 10% 10px;
+  a {
+    color: inherit;
+    text-decoration: none;
+    display: flex;
+    i {
+      color: initial;
+      padding: 0 15px;
+    }
+    .title {
+      color: inherit;
+      font-weight: bold;
+      margin: 0;
+    }
+  }
+  a:hover {
+    .title,
+    i {
+      color: $primary-color;
+    }
+  }
+}
+
+.boxed {
+  color: $primary-text-color;
+  font-family: $main-font;
+  padding: 10px 20px;
+}
+
+.text-center {
+  align-items: center;
+  display: flex;
+}
+
+.align-center {
+  justify-content: center;
+  display: flex;
+}
+
+.fz-h3 {
+  font-size: 1.17em;
+}
+
+.fz-18 {
+  font-size: 18px;
+}
+
+.fz-17 {
+  font-size: 17px;
+}
+
+.fz-14 {
+  font-size: 14px;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.sidebar {
+  display: flex;
+  background: $color-white;
+  grid-row: 2/5;
+  grid-column: 1/2;
+  justify-content: center;
+  align-items: start;
+  padding-top: 20px;
+  .avatar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    img {
+      width: 100%;
+    }
+  }
+}
+
+/* Header */
+.header {
+  display: flex;
+  background: $primary-color-dark;
+  grid-column: 1/5;
+  padding: 10px;
+  // position: absolute;
+  // top: 0;
+  z-index: 1000;
+  .header-icon {
+    font-size: 35px;
+    padding: 0 15px 0 5px;
+    font-weight: bold;
+  }
+  .btn-goback {
+    background-color: transparent;
+    color: $color-white;
+    border: none;
+    padding: 0 15px 0 0px;
+    i {
+      font-size: 30px;
+    }
+  }
+}
+/* End Header */
+
+.content {
+  background: $color-white;
+  grid-column: 2/5;
+}
+
+/* Footer */
+.footer {
+  display: grid;
+  background: $primary-text-color;
+  grid-column: 1/5;
+  grid-row: 5/5;
+  // padding: 15px;
+  padding-top: 10px;
+  position: fixed;
+  // left: 50%;
+  bottom: 0;
+  width: 100%;
+  // height: 46px;
+  max-width: 100%;
+  z-index: 1000;
+  a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 10px 0 10px;
+  }
+  .author {
+    font-size: 19px;
+    font-weight: bold;
+    color: $color-white;
+    padding: 10px;
+  }
+}
+/* End Footer */
+
+// CSS Mobile
+@media screen and (min-width: $min-width-mobile) {
+  .main {
+    width: $width-mobile;
+    margin: auto;
+  }
+  .footer {
+    width: $width-mobile;
+  }
+}

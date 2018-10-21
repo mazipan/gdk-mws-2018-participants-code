@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <title>MWS 2018 - R AdySurya A</title>
+        <link href="https://fonts.googleapis.com/css?family=Chakra+Petch" rel="stylesheet" async>
+        <style>
+        body {
+            margin: 0;
+            background: #233;
+        }
+
+        a {
+            all: none; 
+        }
+        header {
+            display: flex;
+            height: 68px;
+            width: 100%;
+            background: #191f23;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+        header > h1 {
+            color: white; 
+            font-family: 'Chakra Petch', sans-serif;
+            margin: 0px 0px;
+        }
+
+        #author {
+            color: #c63c4c; 
+            letter-spacing: 3px;
+        }
+
+        section#content {
+            background: #f47;
+            min-height: 500px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .card {
+            min-height: 68px;
+            display: flex;
+            width: 50%;
+            border: #233 6px solid;
+            padding: 2px 2px;
+            margin: 2px 3px;
+            justify-content: center;
+            align-items: center;
+            font-size: xx-large;
+            color: #233;
+            border-radius: 5px;
+        }
+
+        .card:hover{
+            cursor: pointer;
+            border-color: white;
+            color: white;
+        }
+
+        input::placeholder {
+            color: white;
+        }
+        .input {
+            height: 100px;
+            font-size: xx-large;
+            background: #f47;
+            width: 100%;
+            border: 0;
+            padding: 1px 13px;
+            color: white;
+        }
+        </style>
+    </head>
+    <body>
+        <header>
+            <h1> MWS 2018 </h1>
+            <span id="author"> R AdySurya A</span>
+        </header>
+        <section id="content">
+            <div class="card" id="calculator">
+                <input class="input" id="valueA" type="number" placeholder="A" />
+                <input class="input" id="valueB" type="number" placeholder="B" />
+            </div>
+            <div class="card" id="result">
+                Result of A & B
+            </div>
+        </section>
+    <script>
+        const valueA = document.getElementById('valueA');        
+        const valueB = document.getElementById('valueB');
+        const result = document.getElementById('result');
+
+        const calculation = (a,b) => {
+            return parseInt(a.value) + parseInt(b.value) || 0; 
+        }
+
+        valueA.addEventListener('change', ({target}) => {
+            result.innerHTML = calculation(valueA, valueB);
+            
+        });
+
+        valueB.addEventListener('change', ({target}) => {
+            result.innerHTML = calculation(valueA, valueB);
+        });
+    </script>
+    </body>
+</html>
+

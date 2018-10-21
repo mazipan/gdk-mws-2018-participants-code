@@ -1,0 +1,25 @@
+<html>
+
+<head>
+	<title>Denny Pradipta - Penjumlahan Dua Angka</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+	<h1>Menjumlahkan dua angka</h1>
+	<input type="text" id="value1" /> +
+	<input type="text" id="value2" />
+	<button type="submit" onclick="tambah()">=</button>
+	<input type="text" id="hasil" />
+	<script>
+		function tambah() {
+			var hasil = 
+				parseInt(document.getElementById('value1').value) + 
+				parseInt(document.getElementById('value2').value);
+
+			document.getElementById('hasil').value = hasil;
+		}
+	</script>
+</body>
+
+</html>

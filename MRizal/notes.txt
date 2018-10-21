@@ -1,0 +1,89 @@
+Device Independet Pixels:
+ ukuran realtime browsers
+
+hardware pixels: ukuran hardware
+
+Device Pixel Ratio of 2
+
+viewport width = hardware pixels / device pixel ratio
+
+
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+
+position: relative;
+
+max-width: 100%
+
+tap able elements
+ min-width: 48px;
+ min-height: 48px;
+
+
+prioritize the content from the small devices
+
+https://github.com/google/ios-webkit-debug-proxy
+
+https://www.smashingmagazine.com/2014/09/testing-mobile-emulators-simulators-remote-debugging/
+
+https://developer.mozilla.org/en-US/docs/Web/CSS/Reference#Keyword_index
+
+
+// links external css
+<link rel="stylesheet" media="screen and (min-width: 500px" href="links.css"/>
+
+// internal css
+@media screen and (max-width: 500px) {}
+@media screen and (min-width: 499px) {}
+
+// grid based system
+display: grid;
+// flex
+display: flex;
+flex-wrap: wrap;
+order: (number);
+
+https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout/Basic_Concepts_of_Grid_Layout
+
+#Responsive Patterns
+>Mostly Fluid
+>Layout Shifter
+>Column Drop
+>Off Canvas
+
+#Responsive Tables
+>Hidden Columns { display: none; }
+
+>No More Tables
+
+table, thead, tbody, tr, td, th { display: block; }
+thead tr { 
+ position: absolute;
+ top: -99999px;
+ left: -99999px;
+}
+td {
+ position: relative;
+ padding-left: 50%;
+}
+td {
+ positon: relative;
+ padding-left: 50%;
+}
+td:before {
+ position: absolute;
+ left: 6px;
+ content: attr(data-th);
+ font-weight: bold;
+}
+
+>Contained Tables
+
+give the table a div class
+ { 
+  width: 100%;
+  overflow-x: auto;
+ }
+
+
+#Fonts
+ >Ideal Measure: 45 - 90 dpl ~65dpl

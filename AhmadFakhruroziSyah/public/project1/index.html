@@ -1,0 +1,51 @@
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="apple-touch-icon" sizes="180x180" href="/images/icons/icon-google-mobile/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/images/icons/icon-google-mobile/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/images/icons/icon-google-mobile/favicon-16x16.png">
+    <link rel="manifest" href="/manifest.json">
+    <link rel="mask-icon" href="/images/icons/icon-google-mobile/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="theme-color" content="#303f9f">
+    <link href="/css/fontawesome-free/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="/css/main.css">
+    <link rel="stylesheet" href="css/project1.css">
+    <title>Project 1</title>
+</head>
+
+<body>
+    <div class="main">
+        <div class="header align-center" w3-include-html="../header-back.html"></div>
+        <div class="wrap">
+            <div class="title align-center text-center">
+                Menambahkan Dua Angka
+            </div>
+            <div class="calculate">
+                <div class="align-center">
+                    <input type="number" name="input1" />
+                </div>
+                <div class="align-center">
+                    <input type="number" name="input2" />
+                </div>
+                <div class="align-center operator">
+                    <span class="line"></span>
+                    <!-- <i class="fas fa-plus fa-lg"></i> -->
+                    <span class="icon-plus"><i class="fas fa-plus fa-lg"></i></span>
+                </div>
+                <div id="result" class="result"></div>
+            </div>
+        </div>
+        <div class='footer align-center text-center' w3-include-html="../footer.html"></div>
+    </div>
+    <script src="/js/app.min.js"></script>
+    <script>
+        includeHTML();
+        project1();
+    </script>
+</body>
+
+</html>

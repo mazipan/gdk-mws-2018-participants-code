@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link rel="stylesheet" href="./styles/mymaps.css" type="text/css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css" integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
+    crossorigin=""/>
+    <title>Document</title>
+
+    <script src="https://unpkg.com/leaflet@1.3.4/dist/leaflet.js" integrity="sha512nMMmRyTVoLYqjP9hrbed9S+FzjZHW5gY1TWCHA5ckwXZBadntCNs8kEqAWdrb9O7rxbCaA4lKTIWjDXZxflOcA==" 
+    crossorigin=""></script>
+</head>
+<body>
+    <div class="container">
+        <div class="peta" id="mapid"> </div>
+        <div class="gambar">
+            Gambar Disini
+        </div>
+        <div class="review">Tulis review disini</div>
+    </div>
+
+    <script>
+        var arr_marker= [
+            [-8.701660,115.169856],
+            [-8.701660,115.169856],
+            [-8.701660,115.169856],
+            [-8.701660,115.169856],
+            [-8.701660,115.169856],
+            [-6.259277, 106.781287]
+        ];
+        let mymap = L.map('mapid').setView([-6.259277, 106.781287], 14);
+        L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={accessToken}', {
+                        attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>,Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
+                        maxZoom: 20,
+                        id: 'mapbox.streets',
+                        accessToken: 'pk.eyJ1IjoiZGVyaWt1cm5pYXdhbiIsImEiOiJjamx1N3Rtb2kwaGhjM3BwZXFoODk5ZWl6In0.ujOWWtxNfuOPOxJB516pXg'
+        }).addTo(mymap);
+
+        for (m of arr_marker) {
+            L.marker(m).addTo(mymap);
+        }
+
+        let popup = L.popup()
+                     .setLatLng([-6.259277, 106.781287])
+                     .setContent("I am work at here")
+                     .openOn(mymap);
+    </script>
+</body>
+</html>

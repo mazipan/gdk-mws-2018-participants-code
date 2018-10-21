@@ -1,0 +1,41 @@
+html,
+body,
+#map {
+	height: 100%;
+	width: 100vw;
+}
+
+body {
+	padding: 0;
+  margin: 0;
+  font-family: 'Questrial', sans-serif;
+}
+
+.container {
+  display: grid;
+  height: 100%;
+  grid-gap: 4px;
+  grid-template-columns: repeat(8, 1fr);
+  grid-template-rows: 60% 40%;
+}
+
+.peta {
+  grid-column: 1/-1;
+}
+
+.gambar {
+  background: #E57373;
+  grid-column: 1/6;
+}
+
+.review {
+  background: #FFCDD2;
+  grid-column: 6/-1;
+}
+
+.gambar,
+.review {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

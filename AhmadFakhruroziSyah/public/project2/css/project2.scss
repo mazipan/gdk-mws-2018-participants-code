@@ -1,0 +1,23 @@
+@import "../../css/_common.scss";
+
+.main {
+  grid-gap: 0;
+}
+
+#map {
+  grid-row: 2/5;
+  position: absolute;
+  left: 0;
+  height: 77.5%;
+  width: 100%;
+  margin: auto;
+}
+
+@media screen and (min-width: $min-width-mobile) {
+  #map {
+    position: fixed;
+    width: $width-mobile;
+    margin: 0 auto;
+    left: 27.5%;
+  }
+}

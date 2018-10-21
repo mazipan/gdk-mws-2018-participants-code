@@ -1,0 +1,398 @@
+  body, html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    min-height: 100%;
+  }
+  
+  body {
+    font-family: Roboto;
+    background-color: #f1efef;
+    position: relative;
+  }
+  
+  * {
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+  }
+  
+  header {
+    padding: 0;
+    margin: 0;
+    left: 0;
+    top: 0;
+    position: fixed;
+    z-index: 99;
+    height: auto;
+    width: 100%;
+  }
+  
+  nav {
+    background: #CB356B;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #BD3F32, #CB356B);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #BD3F32, #CB356B); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: #fff;
+    -webkit-box-shadow: 0 2px 9px 0 rgba(0,0,0,.25);
+    box-shadow: 0 2px 9px 0 rgba(0,0,0,.25);
+    height: 70px;
+    width: 100%;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    box-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+    -webkit-box-orient: horizontal;
+    box-orient: horizontal;
+    -webkit-flex-direction: row;
+    flex-direction: row;
+    position: relative;
+  }
+  
+  .bt-nav {
+    padding: 0 0 0 10px;
+    line-height: 1.2em;
+    -webkit-flex-shrink: 0;
+    display: flex;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+  }
+  
+  .bt-nav .bnav {
+    width: 48px;
+    height: 48px;
+    text-align: center;
+    overflow: hidden;
+    display: inline-block;
+    outline: none;
+    -webkit-tap-highlight-color: transparent;
+    border: 0;
+    border-radius: 50%;
+    color: #fff;
+    font-size: 25px;
+    line-height: 2em;
+  }
+  
+  .fo-disp {
+    display: flex;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    -webkit-box-align: center;
+    box-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+    -webkit-box-orient: horizontal;
+    box-orient: horizontal;
+    -webkit-flex-direction: row;
+    flex-direction: row;
+    height: 100%;
+    min-width: 0;
+    overflow: hidden;
+    margin-left: 12px;
+    -webkit-box-flex: 1;
+    box-flex: 1;
+    -webkit-flex-grow: 1;
+    flex-grow: 1;
+  }
+  
+  .fo-disp .tit-ot {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    margin: auto 0;
+  }
+  
+  .t-disp {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    flex-direction: row;
+    -webkit-flex-direction: row;
+    -webkit-justify-content: flex-start;
+    justify-content: flex-start;
+  }
+  
+  .t-disp .o76Hn {
+    font-size: 20px;
+    font-weight: 500;
+    margin-right: 10px;
+  }
+  
+  .t-disp .o76Br {
+    font-size: 20px;
+    font-weight: 100;
+    margin-right: 10px;
+    padding-left: 10px;
+    border: 0;
+    border-left: 1px solid lightgray;
+    cursor: pointer;
+  }
+  
+  .os-eRT {
+    padding: 0 0 0 5px;
+    margin: 0 10px;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    flex-direction: row;
+    -webkit-flex-direction: row;
+    -webkit-box-align: center;
+    box-align: center;
+    align-items: center;
+    -webkit-align-items: center;
+    -webkit-justify-content: flex-start;
+    justify-content: start;
+    flex: auto;
+  }
+  
+  .di09t {
+    width: 100%;
+    height: 47px;
+    border: 0;
+    border-radius: 50px;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    flex-direction: row;
+    -webkit-flex-direction: row;
+    align-items: center;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -webkit-justify-content: flex-start;
+    justify-content: flex-start;
+    background-color: #fff;
+    box-shadow: 0 1px 5px 2px rgba(0,0,0,.1);
+  }
+  
+  .di09t-ic {
+    color: #787777;
+    font-size: 16px;
+    text-align: center;
+    width: 30px;
+    height: 30px;
+    background: transparent;
+    line-height: 2em;
+    margin: 0 15px;
+  }
+  .se-at {
+    height: 100%;
+    flex: auto;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  
+  .se-at input {
+    width: 95%;
+    height: 100%;
+    padding: 0 10px;
+    font-size: 14px;
+    border: 0;
+    color: #787777;
+    background: transparent;
+    font-weight: 200;
+    outline: none;
+  }
+  
+  .right-li567 {
+    width: 150px;
+    height: 100%;
+    display: flex;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    -webkit-justify-content: flex-start;
+    -webkit-box-orient: horizontal;
+    justify-content: flex-start;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+  }
+  
+  .right-li567 .co-right {
+    display: flex;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    -webkit-box-flex: 1;
+    flex: 1;
+    -webkit-justify-content: flex-end;
+    justify-content: flex-end;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-align-items: center;
+    margin-right: 5px;
+  }
+  
+  .bt-right {
+    width: 100%;
+    display: flex;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    -webkit-justify-content: space-around;
+    justify-content: space-around;
+  }
+  
+  .bt-right .bt-ic0909 {
+    width: 35px;
+    height: 35px;
+    font-size: 24px;
+    text-align: center;
+    border: 0;
+    border-radius: 50%;
+    padding: 3px;
+  }
+  
+  .main {
+    margin-top: 70px;
+    width: 100%;
+    min-height: 700px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .container {
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0 12px 10px 5px rgba(0,0,0,.12);
+    margin-right: 20px;
+    transition: ease .5s;
+  }
+
+  .container.blue {
+    border: 0;
+    border-top: 10px solid lightseagreen;
+  }
+
+  .container.red {
+    border: 0;
+    border-top: 10px solid lightcoral;
+  }
+
+  .container.green {
+    border: 0;
+    border-top: 10px solid lightgreen;
+  }
+
+  .box {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .content {
+    text-align: center;
+  }
+
+  .title {
+    display: block;
+    font-weight: 100;
+    font-family: 'Roboto';
+    margin-bottom: 10px;
+  }
+
+  .descript {
+    display: block;
+    font-weight: 500;
+    font-family: 'Roboto';
+    font-size: 16px;
+  }
+
+  .descript:hover {
+    cursor: pointer;
+  }
+
+  .container:hover {
+    box-shadow: unset;
+  }
+
+  .equals-container {
+    display: flex;
+    width: 100%;
+    min-height: 100px;
+    height: auto;
+    justify-content: center;
+  }
+
+  .equals-container > input {
+    border: 0;
+    border-radius: 50px;
+    width: 30%;
+    height: 40px;
+    background: #fff;
+    box-shadow: 0 2px 7px 0 rgba(0,0,0,.22);
+    padding: 5px 20px;
+    margin: 0 10px;
+    font-family: 'Roboto';
+    font-size: 14px;
+    font-weight: 300;
+    outline: none;
+  }
+
+  .button {
+    border-radius: 100%;
+    width: 40px;
+    height: 40px;
+    background: blue;
+    color: #fff;
+    font-weight: 800;
+    font-size: 14px;
+    font-family: 'Roboto';
+    text-align: center;
+    line-height: 40px;
+  }
+
+  .button.action {
+    width: 80px;
+    border-radius: 50px;
+    box-shadow: 0 2px 7px 0 rgba(0,0,0,.22);
+    font-weight: 500;
+    cursor: pointer; 
+  }
+
+  .box-mix {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .summary {
+    margin: 0 30px;
+    width: 70%;
+    height: 120px;
+    border: 0;
+    border-radius: 10px;
+    background: #fff;
+    color: gray;
+    font-size: 18px;
+    text-align: center;
+    padding-top: 40px;
+  }

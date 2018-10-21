@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+	<title>Denny Pradipta - Mobile Web Specialist</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="keywords" content="denny, aditya, pradipta, google, developer, kejar, mobile, web, specialist">
+	<meta name="description" content="Selamat datang di halaman Mobile Web Specialist 2018 milik Denny Pradipta">
+	<meta name="author" content="Denny Pradipta">
+	<meta name="theme-color" content="#738E9C">
+	<link rel="shortcut icon" href="/images/logo.png">
+	<link rel="manifest" href="manifest.json" />
+
+	<style>
+		.container {
+			display: grid;
+			grid-template-rows: 64px 100px 100px 100px 32px;
+			grid-gap: 4px;
+		}
+
+		.menu {
+			opacity: 0;
+			text-align: center;
+			background: rgba(0,0,0,0);
+			grid-column-start: 1;
+			grid-column-end: 5;
+			animation: fade-in 1s;
+			animation-fill-mode: forwards;
+		}
+
+		.menu img {
+			max-width: 64px;
+			max-height: 64px;
+		}
+
+		.sidebar {
+			opacity: 0;
+			background: #ACBCC5;
+			padding: 8px;
+			color: black;
+			text-align: center;
+			grid-row-start: 2;
+			grid-row-end: 5;
+			grid-column-end: 1/2;
+			animation: fade-in 1s;
+			animation-delay: 0.5s;
+			animation-fill-mode: forwards;
+		}
+
+		.sidebar img {
+			max-width: 64px;
+			max-height: 64px;
+		}
+
+		.konten {
+			opacity: 0;
+			background: #738E9C;
+			padding: 8px;
+			color: black;
+			grid-column: 2/5;
+			animation: fade-in 1s;
+			animation-delay: 1s;
+			animation-fill-mode: forwards;
+		}
+
+		.footer {
+			opacity: 0;
+			text-align: center;
+			background: #506D7B;
+			padding: 8px;
+			color: white;
+			grid-column: 1/5;
+			grid-row: 5/5;
+			animation: fade-in 1s;
+			animation-delay: 1.5s;
+			animation-fill-mode: forwards;
+		}
+
+		@keyframes fade-in {
+			from { opacity: 0; }
+			to { opacity: 1; }
+		}
+
+		a {
+			color: black;
+		}
+
+		a:hover {
+			color: white;
+		}
+		
+		h1 {
+			font-size: 1em;
+			margin: 0 auto;
+		}
+	</style>
+</head>
+
+<body>
+	<div class="container">
+		<div class='menu'><img src="images/logo.svg" alt="Logo"></div>
+		<div class='sidebar'><img src="images/portrait.jpg" alt="Portrait"></div>
+		<div class='konten'><a href="./project1/index.html"><h1>Menjumlahkan Dua Angka</h1></a></div>
+		<div class='konten'><a href="./project2/index.html"><h1>MapsBox</h1></a></div>
+		<div class='konten'><h1>Coming soon</h1></div>
+		<div class='footer'>Footer</div>
+	</div>
+	<script>
+		(function () {
+			if ('serviceWorker' in navigator) {
+				navigator.serviceWorker.register('/serviceWorker.js', {
+						scope: './'
+					})
+					.then(() => console.log('Service Worker Registered'))
+					.catch((error) => console.log('Registration Failed', error))
+			} else {
+				console.log('Service worker are not supported.')
+			}
+		})()
+	</script>
+</body>
+
+</html>

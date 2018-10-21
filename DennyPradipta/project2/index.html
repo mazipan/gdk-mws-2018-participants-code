@@ -1,0 +1,22 @@
+<html>
+
+<head>
+	<title>Denny Pradipta - MapsBox</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://api.mapbox.com/mapbox-gl-js/v0.49.0/mapbox-gl.css' rel='stylesheet' />
+</head>
+
+<body>
+	<h1>MapsBox</h1>
+    <div id='map' style='width: 100%; height: 50%'></div>
+    <script src='https://api.mapbox.com/mapbox-gl-js/v0.49.0/mapbox-gl.js'></script>
+	<script>
+		mapboxgl.accessToken = 'pk.eyJ1IjoiZGVubnlkYXAiLCJhIjoiY2ptNzk3Z2V5MDhnYjN2bnlxcHhmNDlsOCJ9.2UFO4EWUT9f2dKZxnodEmg';
+			var map = new mapboxgl.Map({
+            container: 'map',
+            style: 'mapbox://styles/mapbox/streets-v9'
+		});
+	</script>
+</body>
+
+</html>

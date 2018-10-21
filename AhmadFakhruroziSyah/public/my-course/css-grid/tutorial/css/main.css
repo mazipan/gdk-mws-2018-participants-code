@@ -1,0 +1,48 @@
+.wrap {
+  grid-row: auto;
+}
+
+.main {
+  /* display: grid; */
+  /* grid-template-columns: 100px 100px 100px;
+  grid-template-rows: 50px 100px; */
+  /* grid-template-columns: 100px 100px 100px;
+  grid-template-rows: 50px 100px 50px; */
+  /* grid-template-columns: 100px 100px 100px 100px; */
+  /* grid-template-rows: 30px 100px 100px 100px 30px; */
+  /* grid-gap: 4px; */
+  height: 90%;
+  grid-template-rows: 10vh 9vh 13vh;
+}
+
+.menu {
+  background: lightblue;
+  /* Sebelum disederhanakan */
+  /* grid-column-start: 1;
+  grid-column-end: 4; */
+  /* grid-column-start & grid-column-end 
+   * dapat disederhanakan seperti code dibawah ini
+   */
+  /* grid-column: 1/5; */
+  grid-column: 1/5;
+  grid-row: 3;
+}
+
+.sidebar {
+  background: lightyellow;
+  grid-row: 4/7;
+  /* grid-row: 4/5; */
+  grid-column: 1/2;
+}
+
+.konten {
+  background: pink;
+  /* grid-row: 4/5; */
+  grid-column: 2/5;
+}
+
+.footers {
+  background: lime;
+  grid-column: 1/5;
+  grid-row: 7/7;
+}

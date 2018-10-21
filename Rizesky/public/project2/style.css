@@ -1,0 +1,28 @@
+#mapid{
+	height: 300px;
+
+}
+
+html{
+			font-family: 'Lato',sans-serif;
+		}
+
+
+#mapid {
+  grid-row: 2/5;
+  position: absolute;
+  left: 0;
+  height: 77.5%;
+  width: 100%;
+  margin: auto;
+}
+
+
+@media screen and (min-width: 880px) {
+  #mapid {
+    position: fixed;
+    width: 45%;
+    margin: 0 auto;
+    left: 27.5%;
+  }
+}

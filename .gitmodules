@@ -19,3 +19,6 @@
 [submodule "TobiasKusnaman"]
 	path = TobiasKusnaman
 	url = https://github.com/tobiaskusnaman/TobiasKusnamanMWS
+[submodule "Heriyanto"]
+	path = Heriyanto
+	url = https://github.com/heritechie/gdk-mws-2018

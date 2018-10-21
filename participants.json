@@ -1,194 +1,226 @@
 [
   {
     "fasilitator": "Irfan Maulana",
-    "name": "Alim Abdul Jabbar",
-    "email": "alimabduljabbar1746@gmail.com",
-    "firebase_link": "https://belajar-firebase-dong.firebaseapp.com"
+    "name": "Ahmad Fakhrurozi S",
+    "email": "haifahrul@gmail.com",
+    "firebase_link": "https://haifahrul-mws.firebaseapp.com",
+    "isOffline": true
   },
   {
     "fasilitator": "Irfan Maulana",
-    "name": "ardi wirawan",
+    "name": "Alim Abdul Jabbar",
+    "email": "alimabduljabbar1746@gmail.com",
+    "firebase_link": "https://belajar-firebase-dong.firebaseapp.com",
+    "isOffline": true
+  },
+  {
+    "fasilitator": "Irfan Maulana",
+    "name": "Ardi Wirawan",
     "email": "ardi.wirawan26@gmail.com",
-    "firebase_link": ""
+    "firebase_link": "",
+    "isOffline": false
   },
   {
     "fasilitator": "Irfan Maulana",
     "name": "Bayu Syaits Dhin Anwar",
     "email": "bayusyaits@gmail.com",
-    "firebase_link": "https://mws-bayusyaits.firebaseapp.com/"
-  },
-  {
-    "fasilitator": "Irfan Maulana",
-    "name": "Deden Gobel",
-    "email": "Up@hacker-newbie.org",
-    "firebase_link": "https://spheric-baton-201906.firebaseapp.com/"
-  },
-  {
-    "fasilitator": "Irfan Maulana",
-    "name": "Denny Pradipta",
-    "email": "denny.aditya.p@gmail.com",
-    "firebase_link": "https://dennypradipta-mws.firebaseapp.com"
-  },
-  {
-    "fasilitator": "Irfan Maulana",
-    "name": "Deri Kurniawan",
-    "email": "derikurniawan11d88@gmail.com",
-    "firebase_link": "https://codemeid-40ada.firebaseapp.com"
-  },
-  {
-    "fasilitator": "Irfan Maulana",
-    "name": "Didik Mulyadi",
-    "email": "didikmulyadi12@gmail.com",
-    "firebase_link": "https://mobilewebspecialistdidik.firebaseapp.com"
-  },
-  {
-    "fasilitator": "Irfan Maulana",
-    "name": "Dimas Priyo Nugroho",
-    "email": "dimaspriyongrh@gmail.com",
-    "firebase_link": "https://dims-b45ef.firebaseapp.com"
-  },
-  {
-    "fasilitator": "Irfan Maulana",
-    "name": "Ferdi ardianto",
-    "email": "ard.ferdi@gmail.com",
-    "firebase_link": ""
-  },
-  {
-    "fasilitator": "Irfan Maulana",
-    "name": "Filaxis Bona Priyadi",
-    "email": "filaxisp@gmail.com",
-    "firebase_link": ""
-  },
-  {
-    "fasilitator": "Irfan Maulana",
-    "name": "Ghozi Alwan",
-    "email": "ghozi.alwan@gmail.com",
-    "firebase_link": "https://ghozi-bf471.firebaseapp.com/"
-  },
-  {
-    "fasilitator": "Irfan Maulana",
-    "name": "Heriyanto",
-    "email": "heritechie@gmail.com",
-    "firebase_link": "https://heritechie-mws.firebaseapp.com/"
-  },
-  {
-    "fasilitator": "Irfan Maulana",
-    "name": "heru hartanto",
-    "email": "heruhartanto110291@gmail.com",
-    "firebase_link": ""
-  },
-  {
-    "fasilitator": "Irfan Maulana",
-    "name": "Ikhsan Putra Arisandi",
-    "email": "ikhsanputra0206@gmail.com",
-    "firebase_link": "https://putra-mws.firebaseapp.com/"
-  },
-  {
-    "fasilitator": "Irfan Maulana",
-    "name": "Jeremy Lawrence",
-    "email": "jeremy.lawrence.harijanto@gmail.com",
-    "firebase_link": "https://singular-range-731.firebaseapp.com"
-  },
-  {
-    "fasilitator": "Irfan Maulana",
-    "name": "Kukuh Satrio Wibowo",
-    "email": "kukuhsatriowibowo@gmail.com",
-    "firebase_link": "https://mwskukuh2.firebaseapp.com/"
-  },
-  {
-    "fasilitator": "Irfan Maulana",
-    "name": "Muhamad Sadan Dwi Cahyo",
-    "email": "muhamad.sadan@gmail.com",
-    "firebase_link": ""
-  },
-  {
-    "fasilitator": "Irfan Maulana",
-    "name": "Muhammad Arif Widiyatmiko",
-    "email": "arifwidiyatmiko@gmail.com",
-    "firebase_link": "https://mobilewebs-arif.firebaseapp.com/"
-  },
-  {
-    "fasilitator": "Irfan Maulana",
-    "name": "Muhammad Ridick",
-    "email": "muriddick@gmail.com",
-    "firebase_link": ""
-  },
-  {
-    "fasilitator": "Irfan Maulana",
-    "name": "Muslim Al Fatih",
-    "email": "muslimalfatih22@gmail.com",
-    "firebase_link": "https://muslimalfatih-gdk.firebaseapp.com/"
-  },
-  {
-    "fasilitator": "Irfan Maulana",
-    "name": "R Adysurya A",
-    "email": "radysurya.agus@gmail.com",
-    "firebase_link": "https://main-being-116313.firebaseapp.com/"
-  },
-  {
-    "fasilitator": "Irfan Maulana",
-    "name": "Rintis Mardika Sunarto",
-    "email": "rmsyf17@gmail.com",
-    "firebase_link": ""
-  },
-  {
-    "fasilitator": "Irfan Maulana",
-    "name": "rizesky siallagan",
-    "email": "siallaganrizesky@gmail.com",
-    "firebase_link": "https://rizeskymws2018.firebaseapp.com/"
-  },
-  {
-    "fasilitator": "Irfan Maulana",
-    "name": "Tobias Kusnaman",
-    "email": "tobias.kusnaman@rebelworks.co",
-    "firebase_link": "https://tobi-4b637.firebaseapp.com/"
-  },
-  {
-    "fasilitator": "Irfan Maulana",
-    "name": "Uen Jueni H",
-    "email": "uen_jh@yahoo.com",
-    "firebase_link": ""
-  },
-  {
-    "fasilitator": "Irfan Maulana",
-    "name": "Vito Rizki Imanda",
-    "email": "vitorizkiimanda@gmail.com",
-    "firebase_link": ""
-  },
-  {
-    "fasilitator": "Irfan Maulana",
-    "name": "Wardiman Perdian",
-    "email": "wardimanperdian@gmail.com",
-    "firebase_link": "https://mobile-web-specialist-ce4ef.firebaseapp.com"
+    "firebase_link": "https://mws-bayusyaits.firebaseapp.com/",
+    "isOffline": false
   },
   {
     "fasilitator": "Irfan Maulana",
     "name": "Carolina Ratna Sari",
     "email": "carolinaratnasari@gmail.com",
-    "firebase_link": "https://carolinamws-f5e64.firebaseapp.com"
-  },
-  {
-    "fasilitator": "Irfan Maulana",
-    "name": "Ahmad Fakhrurozi S",
-    "email": "haifahrul@gmail.com",
-    "firebase_link": "https://haifahrul-mws.firebaseapp.com"
-  },
-  {
-    "fasilitator": "Irfan Maulana",
-    "name": "Dhody Rahmad Hidayat",
-    "email": "dhodyrhmd@gmail.com",
-    "firebase_link": "https://dhodyrhmd-mws.firebaseapp.com"
-  },
-  {
-    "fasilitator": "Irfan Maulana",
-    "name": "Dimateo",
-    "email": "dimateo.mon123@gmail.com",
-    "firebase_link": "https://dimateo-mws.firebaseapp.com"
+    "firebase_link": "https://carolinamws-f5e64.firebaseapp.com",
+    "isOffline": false
   },
   {
     "fasilitator": "Irfan Maulana",
     "name": "Christoper Rulita",
     "email": "christopher.rulita23@gmail.com",
-    "firebase_link": "https://projek-christopher.firebaseapp.com"
+    "firebase_link": "https://projek-christopher.firebaseapp.com",
+    "isOffline": false
+  },
+  {
+    "fasilitator": "Irfan Maulana",
+    "name": "Deden Gobel",
+    "email": "Up@hacker-newbie.org",
+    "firebase_link": "https://spheric-baton-201906.firebaseapp.com/",
+    "isOffline": false
+  },
+  {
+    "fasilitator": "Irfan Maulana",
+    "name": "Denny Pradipta",
+    "email": "denny.aditya.p@gmail.com",
+    "firebase_link": "https://dennypradipta-mws.firebaseapp.com",
+    "isOffline": true
+  },
+  {
+    "fasilitator": "Irfan Maulana",
+    "name": "Deri Kurniawan",
+    "email": "derikurniawan11d88@gmail.com",
+    "firebase_link": "https://codemeid-40ada.firebaseapp.com",
+    "isOffline": false
+  },
+  {
+    "fasilitator": "Irfan Maulana",
+    "name": "Dhody Rahmad Hidayat",
+    "email": "dhodyrhmd@gmail.com",
+    "firebase_link": "https://dhodyrhmd-mws.firebaseapp.com",
+    "isOffline": false
+  },
+  {
+    "fasilitator": "Irfan Maulana",
+    "name": "Didik Mulyadi",
+    "email": "didikmulyadi12@gmail.com",
+    "firebase_link": "https://mobilewebspecialistdidik.firebaseapp.com",
+    "isOffline": false
+  },
+  {
+    "fasilitator": "Irfan Maulana",
+    "name": "Dimas Priyo Nugroho",
+    "email": "dimaspriyongrh@gmail.com",
+    "firebase_link": "https://dims-b45ef.firebaseapp.com",
+    "isOffline": false
+  },
+  {
+    "fasilitator": "Irfan Maulana",
+    "name": "Dimateo",
+    "email": "dimateo.mon123@gmail.com",
+    "firebase_link": "https://dimateo-mws.firebaseapp.com",
+    "isOffline": false
+  },
+  {
+    "fasilitator": "Irfan Maulana",
+    "name": "Ferdi ardianto",
+    "email": "ard.ferdi@gmail.com",
+    "firebase_link": "",
+    "isOffline": false
+  },
+  {
+    "fasilitator": "Irfan Maulana",
+    "name": "Filaxis Bona Priyadi",
+    "email": "filaxisp@gmail.com",
+    "firebase_link": "",
+    "isOffline": false
+  },
+  {
+    "fasilitator": "Irfan Maulana",
+    "name": "Ghozi Alwan",
+    "email": "ghozi.alwan@gmail.com",
+    "firebase_link": "https://ghozi-bf471.firebaseapp.com/",
+    "isOffline": false
+  },
+  {
+    "fasilitator": "Irfan Maulana",
+    "name": "Heriyanto",
+    "email": "heritechie@gmail.com",
+    "firebase_link": "https://heritechie-mws.firebaseapp.com/",
+    "isOffline": false
+  },
+  {
+    "fasilitator": "Irfan Maulana",
+    "name": "Heru Hartanto",
+    "email": "heruhartanto110291@gmail.com",
+    "firebase_link": "",
+    "isOffline": false
+  },
+  {
+    "fasilitator": "Irfan Maulana",
+    "name": "Ikhsan Putra Arisandi",
+    "email": "ikhsanputra0206@gmail.com",
+    "firebase_link": "https://putra-mws.firebaseapp.com/",
+    "isOffline": true
+  },
+  {
+    "fasilitator": "Irfan Maulana",
+    "name": "Jeremy Lawrence",
+    "email": "jeremy.lawrence.harijanto@gmail.com",
+    "firebase_link": "https://singular-range-731.firebaseapp.com",
+    "isOffline": false
+  },
+  {
+    "fasilitator": "Irfan Maulana",
+    "name": "Kukuh Satrio Wibowo",
+    "email": "kukuhsatriowibowo@gmail.com",
+    "firebase_link": "https://mwskukuh2.firebaseapp.com/",
+    "isOffline": false
+  },
+  {
+    "fasilitator": "Irfan Maulana",
+    "name": "Muhamad Sadan Dwi Cahyo",
+    "email": "muhamad.sadan@gmail.com",
+    "firebase_link": "",
+    "isOffline": false
+  },
+  {
+    "fasilitator": "Irfan Maulana",
+    "name": "Muhammad Arif Widiyatmiko",
+    "email": "arifwidiyatmiko@gmail.com",
+    "firebase_link": "https://mobilewebs-arif.firebaseapp.com/",
+    "isOffline": false
+  },
+  {
+    "fasilitator": "Irfan Maulana",
+    "name": "Muhammad Ridick",
+    "email": "muriddick@gmail.com",
+    "firebase_link": "",
+    "isOffline": false
+  },
+  {
+    "fasilitator": "Irfan Maulana",
+    "name": "Muslim Al Fatih",
+    "email": "muslimalfatih22@gmail.com",
+    "firebase_link": "https://muslimalfatih-gdk.firebaseapp.com/",
+    "isOffline": true
+  },
+  {
+    "fasilitator": "Irfan Maulana",
+    "name": "R Adysurya A",
+    "email": "radysurya.agus@gmail.com",
+    "firebase_link": "https://main-being-116313.firebaseapp.com/",
+    "isOffline": false
+  },
+  {
+    "fasilitator": "Irfan Maulana",
+    "name": "Rintis Mardika Sunarto",
+    "email": "rmsyf17@gmail.com",
+    "firebase_link": "",
+    "isOffline": false
+  },
+  {
+    "fasilitator": "Irfan Maulana",
+    "name": "Rizesky Siallagan",
+    "email": "siallaganrizesky@gmail.com",
+    "firebase_link": "https://rizeskymws2018.firebaseapp.com/",
+    "isOffline": true
+  },
+  {
+    "fasilitator": "Irfan Maulana",
+    "name": "Tobias Kusnaman",
+    "email": "tobias.kusnaman@rebelworks.co",
+    "firebase_link": "https://tobi-4b637.firebaseapp.com/",
+    "isOffline": true
+  },
+  {
+    "fasilitator": "Irfan Maulana",
+    "name": "Uen Jueni H",
+    "email": "uen_jh@yahoo.com",
+    "firebase_link": "",
+    "isOffline": false
+  },
+  {
+    "fasilitator": "Irfan Maulana",
+    "name": "Vito Rizki Imanda",
+    "email": "vitorizkiimanda@gmail.com",
+    "firebase_link": "https://vito-mws.firebaseapp.com/",
+    "isOffline": true
+  },
+  {
+    "fasilitator": "Irfan Maulana",
+    "name": "Wardiman Perdian",
+    "email": "wardimanperdian@gmail.com",
+    "firebase_link": "https://mobile-web-specialist-ce4ef.firebaseapp.com",
+    "isOffline": false
   }
 ]

@@ -6,6 +6,7 @@ const MiniCssExtractPlugin = require("mini-css-extract-plugin")
 const CompressionPlugin = require("compression-webpack-plugin")
 const OptimizeCSSAssetsPlugin = require("optimize-css-assets-webpack-plugin")
 const CopyWebpackPlugin = require('copy-webpack-plugin')
+const { GenerateSW } = require('workbox-webpack-plugin')
 
 const SRC = path.resolve(__dirname, 'src');
 const NODE_ENV = process.env.NODE_ENV;
@@ -37,6 +38,33 @@ const extractHTML = new HtmlWebpackPlugin({
   },
   environment: process.env.NODE_ENV
 });
+
+let plugins = [
+  new webpack.DefinePlugin({
+    'process.env': {
+      isStaging: (isDev() || NODE_ENV === 'staging'),
+      NODE_ENV: '"'+NODE_ENV+'"'
+    }
+  }),
+  extractHTML,
+];
+
+if (!isDev()) {
+  plugins = [].concat(plugins)
+  .concat([
+    new MiniCssExtractPlugin({
+      filename: "[name].[hash].css"
+    }),
+    new CopyWebpackPlugin([
+      'participants.json',
+      'manifest.json',
+    ]),
+    new CompressionPlugin({
+      algorithm: 'gzip'
+    }),
+    new GenerateSW()
+  ])
+}
 
 module.exports = {
   entry: {
@@ -92,19 +120,5 @@ module.exports = {
       }
     ]
   },
-  plugins: [
-    new webpack.DefinePlugin({
-      'process.env': {
-        isStaging: (isDev() || NODE_ENV === 'staging'),
-        NODE_ENV: '"'+NODE_ENV+'"'
-      }
-    }),
-    extractHTML,
-    new MiniCssExtractPlugin({
-      filename: "[name].[hash].css"
-    }),
-    new CompressionPlugin({
-      algorithm: 'gzip'
-    })
-  ]
+  plugins
 }

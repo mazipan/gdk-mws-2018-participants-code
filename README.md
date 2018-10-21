@@ -2,6 +2,10 @@
 
 Dokumentasi kode untuk Google Developer Kejar - Mobile Web Specialist 2018
 
+## Live Webpage
+
+[https://mazipan.github.io/gdk-mws-2018-participants-code/](https://mazipan.github.io/gdk-mws-2018-participants-code/)
+
 ## Bagaimana menambahkan file kalian?
 
 + Fork repo ini, kalau belum bisa cara fork bisa baca artikel https://help.github.com/articles/fork-a-repo/
@@ -23,6 +27,8 @@ Dokumentasi kode untuk Google Developer Kejar - Mobile Web Specialist 2018
 git submodule add [URL_REPOSITORY] FOLDER_NAME
 # Example
 git submodule add https://github.com/DeriKurniawan/DeriKurniawanMWS DeriKurniawan
+# Update Submodule
+git submodule update --recursive
 ```
 
 + Buat pull request ke repo ini branch `master`
@@ -30,7 +36,7 @@ git submodule add https://github.com/DeriKurniawan/DeriKurniawanMWS DeriKurniawa
 ## Development Web 
 
 + `yarn run dev` untuk development di lokal
-+ `yarn run dist` untuk menmbuat file production
++ `yarn run dist` untuk membuat file production
 
 ## Jangan lupa untuk tekan ⭐ pada repository ini
 

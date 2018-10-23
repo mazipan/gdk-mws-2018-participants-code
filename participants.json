@@ -88,7 +88,7 @@
     "name": "Dimateo",
     "email": "dimateo.mon123@gmail.com",
     "firebase_link": "https://dimateo-mws.firebaseapp.com",
-    "isOffline": false
+    "isOffline": true
   },
   {
     "fasilitator": "Irfan Maulana",

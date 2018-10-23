@@ -1,0 +1,43 @@
+<html>
+	<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+		<style>
+		.container {
+		display: grid;
+		grid-template-columns: 100px 100px 100px 100px;
+		grid-template-rows: 30px 100px 100px 100px 30px;
+		grid-gap: 4px;
+		}
+		.menu {
+		background: lightblue;
+		grid-column-start: 1;
+		grid-column-end: 5;
+		}
+		.sidebar {
+		background: lightyellow;
+		grid-row-start: 2;
+		grid-row-end: 5;
+		grid-column-end: 1/2;
+		}
+		.konten {
+		background: pink;
+		grid-column: 2/5;
+		}
+		.footer {
+		background: lime;
+		grid-column: 1/5;
+		grid-row : 5/5;
+		}
+		</style>
+		</head>
+		<body>
+		<div class="container">
+		<div class='menu'>Menu</div>
+		<div class='sidebar'><img src="images\IMG_20180817_174915.jpg"></div>
+		<div class='konten'>Konten 1</div>
+		<div class='konten'>Konten 2</div>
+		<div class='konten'>Konten 3</div>
+		<div class='footer'>Dimateo</div>
+		</div>
+	</body>
+</html>

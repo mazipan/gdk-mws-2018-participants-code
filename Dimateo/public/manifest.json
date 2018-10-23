@@ -1,0 +1,22 @@
+{
+  "name": "Dimateo MWS",
+  "short_name": "D MWS",
+  "description": "Selamat datang di halaman Mobile Web Specialist 2018 Batch 1 milik Dimateo",
+  "background_color": "#738E9C",
+  "theme_color": "#738E9C",
+  "display": "standalone",
+  "Scope": "/",
+  "start_url": "/",
+  "icons": [
+    {
+    "src": "images/78ae09b2a2fb505e698ced7332157c47.png",
+    "sizes": "256x256",
+    "type": "image/png"
+    },
+    {
+      "src": "images/78ae09b2a2fb505e698ced7332157c47.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

@@ -2,6 +2,8 @@
 
 Dokumentasi kode untuk Google Developer Kejar - Mobile Web Specialist 2018
 
+[![Travis](https://img.shields.io/travis/mazipan/gdk-mws-2018-participants-code.svg)](https://travis-ci.org/mazipan/gdk-mws-2018-participants-code)
+
 ## Live Webpage
 
 [https://mazipan.github.io/gdk-mws-2018-participants-code/](https://mazipan.github.io/gdk-mws-2018-participants-code/)

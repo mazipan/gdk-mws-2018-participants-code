@@ -7,3 +7,6 @@
 [submodule "DeriKurniawan"]
 	path = DeriKurniawan
 	url = https://github.com/DeriKurniawan/DeriKurniawanMWS.git
+[submodule "DeriKurniawanOfflinePWA"]
+	path = DeriKurniawan
+	url = https://github.com/DeriKurniawan/DeriKurniawanMWSOffline.git

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Dimateo MWS</title>
+	<link rel="manifest" href="manifest.json">
+	<meta name="theme-color" content="#FFC0CB">
+	<meta name="Description" content="Pemilik : Dimateo, MWS Batch 1 2018">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+		<style>
+			.container {
+			display: grid;
+			width: 100%;
+			grid-template-columns: repeat(4, 1fr);;
+			grid-template-rows: 30px 100px 100px 100px 30px;
+			grid-gap: 4px;
+			}
+			.menu {
+			background: lightblue;
+			grid-column-start: 1;
+			grid-column-end: 5;
+			}
+			.sidebar {
+			background: lightyellow;
+			grid-row-start: 2;
+			grid-row-end: 5;
+			grid-column-end: 1/2;
+			}
+			.konten {
+			background: pink;
+			grid-column: 2/5;
+			}
+			.footer {
+			background: yellow;
+			grid-column: 1/5;
+			grid-row : 5/6	;
+			}
+		</style>
+
+</head>
+<body>
+		<div class="container">
+		<div class='menu'><img src="images\78ae09b2a2fb505e698ced7332157c47.png" alt="Logo Mata"></div>
+		<div class='sidebar'><img src="images\IMG_20180817_174915.jpg" alt="Foto Saya"></div>
+		<div class='konten'><a href="project1\add2number.html">Menjumlah Dua Angka</a></div>
+		<div class='konten'><a href="project2\index.html">Lokasi Istimewa dengan Mapbox</a></div>
+		<div class='konten'>Akan Datang</div>
+		<div class='footer'>Dimateo</div>
+		</div>
+
+		<script>
+		(function () {
+			if ('serviceWorker' in navigator) {
+				navigator.serviceWorker.register('sw.js', {
+						scope: './'
+					})
+					.then(() => console.log('Service Worker Registered'))
+					.catch((error) => console.log('Registration Failed', error))
+			} else {
+				console.log('Service worker are not supported.')
+			}
+		})()
+		</script>
+</body>
+</html>

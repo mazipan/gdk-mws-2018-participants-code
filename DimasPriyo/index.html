@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+        <link rel="manifest" href="/manifest.json">
+    <meta name="viewport" content="width=device-width, initialscale=1.0, user-scalable=no" />
+    <title>Dimas</title>
+    <!-- <link rel="stylesheet" type="text/css" href="css/main.css"> -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css" integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
+        crossorigin="" />
+    <script src="https://unpkg.com/leaflet@1.3.4/dist/leaflet.js" integrity="sha512nMMmRyTVoLYqjP9hrbed9S+FzjZHW5gY1TWCHA5ckwXZBadntCNs8kEqAWdrb9O7rxbCaA4lKTIWjDXZxflOcA=="
+        crossorigin=""></script>
+    <style>
+        .container{
+            height: 100%;
+            display: grid;
+            grid-template-columns: 30% 40% 30%;
+            grid-template-rows: 75px 150px 75px;
+            
+        }   
+        .header{
+            grid-column-start: 1;
+            grid-column-end: 4;
+            background: beige;
+            text-align: center;
+        }
+        .left{
+            margin: auto;
+            text-align: center;
+        }
+        
+        .left input{
+            width: 50%;
+        }
+        
+        .left div{
+            padding:0px 10px 10px 0px;; 
+        }
+        .middle{
+            width: 100%;
+            height: 100%;
+        }
+        
+        .right{
+            background:#9e9e9e17;
+        }
+        
+        .center{
+            grid-column-start: 2;
+            grid-column-end: 2;
+        }
+        .footer{
+            grid-column-start: 1;
+            grid-column-end: 4;
+            background: beige;
+            text-align: center;
+        }
+        .hasil{
+            display: flex;
+            float: left;
+        }
+        
+        .hasil div input{
+            margin-left: 40px;
+            width: 60%;
+        }
+        
+        .css{
+            display: grid;
+            height: 100%;
+            width: 100%;
+            grid-gap: 4px;
+        }
+        
+        .satu{
+            grid-column-start: 1;
+            grid-column-end: 3;
+            background: aquamarine;
+        }
+        
+        .dua{
+            grid-column-start: 3;
+            grid-column-end: 4;
+            background: gold;
+        }
+        
+        .tiga{
+            grid-row-start: 2;
+            grid-row-end: 4;
+            grid-column-start: 1;
+            grid-column-end: 2;
+            background: aqua;
+        }
+        
+        .empat{
+            grid-column-start: 2;
+            grid-column-end: 4;
+            background: mediumorchid;
+        }
+        
+        .lima{
+            grid-column-start: 2;
+            grid-column-end: 3;
+            background: lightblue;
+        }
+        
+        .enam{
+            grid-column-start: 3;
+            grid-column-end: 4;
+            background:indianred;
+        }
+        .map {
+            display: grid;
+            height: 100%;
+            /* grid-gap: 4px;
+            grid-template-columns: repeat(8,1fr);
+            grid-template-rows: 60% 40%; */
+        }
+        .peta {
+            grid-column: 1/-1;
+        }
+    </style>
+
+
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="header">
+            <h3>Google Developer Kejar</h3>
+        </div>
+
+        <div class="left">
+            <div>
+                <input type="number" name="input">
+            </div>
+            <div>
+                <input type="number" name="input">
+            </div>
+            <hr>
+            <div class="hasil">
+                <div>
+                    <input type="number" name="hasil">
+                </div>
+                <div>
+                    <button name="tombol">+</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="middle">
+
+
+            <div class='map' style="height: 100%;width: 100%;">
+                <div class='peta' id='mapid' style="height: 100%;width: 100%;"> </div>
+            </div>
+
+            <script>
+                var mymap = L.map('mapid').setView([-6.175392, 106.827153], 14);
+                L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={accessToken}', {
+                    attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors,\
+                <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
+                    maxZoom: 20,
+                    id: 'mapbox.streets',
+                    accessToken: 'pk.eyJ1IjoicHJvdHJhZnJlZSIsImEiOiJjam1rcjkyMnQwMGlxM29xY3Y4eDdvcXBtIn0.Urhnk3kV5aFGG1FBfyylYQ'
+                }).addTo(mymap);
+            </script>
+
+            <script>
+                let popup = L.popup()
+                    .setLatLng([-6.175392, 106.827153])
+                    .setContent("Monumen Nasional Indonesia")
+                    .openOn(mymap);
+            </script>
+
+
+
+        </div>
+
+        <div class="right">
+            <div class="css">
+                <div class="satu">1</div>
+                <div class="dua">2</div>
+                <div class="tiga">3</div>
+                <div class="empat">4</div>
+                <div class="lima">5</div>
+                <div class="enam">6</div>
+            </div>
+        </div>
+
+        <div class="footer">
+            <h3 style="margin:0px;">Dimas Priyo N </h3>
+            <br>
+            <a href="https://github.com/dimspry">Github</a>
+        </div>
+
+    </div>
+    <script src="add2numbers.js"></script>
+    <script>
+        (function () {
+            if ("serviceWorker" in navigator) {
+                navigator.serviceWorker
+                    .register(`service-worker.js`)
+                    .then(registration => {
+                        console.log("SW scope:", registration.scope);
+                    });
+            } else {
+                console.log('Service worker are not supported.')
+            }
+        })()
+    </script>
+</body>
+
+</html>

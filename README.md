@@ -2,6 +2,12 @@
 
 Dokumentasi kode untuk Google Developer Kejar - Mobile Web Specialist 2018
 
+[![Travis](https://img.shields.io/travis/mazipan/gdk-mws-2018-participants-code.svg)](https://travis-ci.org/mazipan/gdk-mws-2018-participants-code)
+
+## Live Webpage
+
+[https://mazipan.github.io/gdk-mws-2018-participants-code/](https://mazipan.github.io/gdk-mws-2018-participants-code/)
+
 ## Bagaimana menambahkan file kalian?
 
 + Fork repo ini, kalau belum bisa cara fork bisa baca artikel https://help.github.com/articles/fork-a-repo/
@@ -13,12 +19,29 @@ Dokumentasi kode untuk Google Developer Kejar - Mobile Web Specialist 2018
 + Pastikan di `pull request` tersebut kalian sebutkan nama kalian di judul pull request-nya.
 + **Selamat Belajar!!!**
 
-## Github Pages
+## Menambahkan menggunakan `submodule`
 
++ Buat repository baru di akun kalian, dan tambahkan file disana
++ Tambahkan submodule di repo ini dengan cara:
 
-Repository ini sudah ter-setup Github Pages pada branch master yang bisa kalian akses di https://mazipan.github.io/gdk-mws-2018-participants-code/, jadi bila kalian membutuhkan demo untuk file kalian bisa langsung akses setelah code selesai di merge ke branch master, misalnya https://mazipan.github.io/gdk-mws-2018-participants-code/IrfanMaulana
+```shell
+# Run
+git submodule add [URL_REPOSITORY] FOLDER_NAME
+# Example
+git submodule add https://github.com/DeriKurniawan/DeriKurniawanMWS DeriKurniawan
+# Update Submodule
+git submodule update --recursive
+```
+
++ Buat pull request ke repo ini branch `master`
+
+## Development Web 
+
++ `yarn run dev` untuk development di lokal
++ `yarn run dist` untuk membuat file production
 
 ## Jangan lupa untuk tekan ⭐ pada repository ini
+
 
 --------
 

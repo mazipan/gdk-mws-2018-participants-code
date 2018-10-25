@@ -12,7 +12,7 @@
 	url = https://github.com/hardzal/mobile-web-specialist-gdk2018
 [submodule "DeriKurniawan"]
 	path = DeriKurniawan
-	url = https://github.com/DeriKurniawan/DeriKurniawanMWS
+	url = https://github.com/DeriKurniawan/DeriKurniawanMWSOffline
 [submodule "DennyPradipta"]
 	path = DennyPradipta
 	url = https://github.com/dennydap/GoogleDeveloperKejarMWS

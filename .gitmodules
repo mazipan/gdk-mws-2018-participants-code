@@ -22,3 +22,6 @@
 [submodule "DeriKuriawan"]
 	path = DeriKuriawan
 	url = https://github.com/DeriKurniawan/DeriKurniawanMWSOffline
+[submodule "DeriKurniawanPWA"]
+	path = DeriKurniawanPWA
+	url = https://github.com/DeriKurniawan/DeriKurniawanMWSOffline

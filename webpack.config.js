@@ -6,7 +6,7 @@ const MiniCssExtractPlugin = require("mini-css-extract-plugin")
 const CompressionPlugin = require("compression-webpack-plugin")
 const OptimizeCSSAssetsPlugin = require("optimize-css-assets-webpack-plugin")
 const CopyWebpackPlugin = require('copy-webpack-plugin')
-const { GenerateSW } = require('workbox-webpack-plugin')
+const { InjectManifest } = require('workbox-webpack-plugin')
 
 const SRC = path.resolve(__dirname, 'src');
 const NODE_ENV = process.env.NODE_ENV;
@@ -55,14 +55,16 @@ if (!isDev()) {
     new MiniCssExtractPlugin({
       filename: "[name].[hash].css"
     }),
+    new CompressionPlugin({
+      algorithm: 'gzip'
+    }),
+    new InjectManifest({
+      swSrc: './src/sw.js',
+    }),
     new CopyWebpackPlugin([
       'participants.json',
       'manifest.json',
     ]),
-    new CompressionPlugin({
-      algorithm: 'gzip'
-    }),
-    new GenerateSW()
   ])
 }
 

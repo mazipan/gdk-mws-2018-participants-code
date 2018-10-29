@@ -45,6 +45,21 @@
 		.github-corner:hover .octo-arm {
 			animation: octocat-wave 560ms ease-in-out
 		}
+		
+		.hero.is-info .title{
+			color: #000;
+		}
+
+		.hero.is-info .subtitle{
+			color: #000;
+		}
+		
+		.checked-link{
+			color: red;
+		}
+		.unchecked-link{
+			color: #00e679;
+		}
 
 		@keyframes octocat-wave {
 
@@ -147,7 +162,7 @@
 
 	<% if (webpackConfig.output.publicPath !== '/') { %>
 		<script>
-			"serviceWorker"in navigator&&window.addEventListener("load",function(){navigator.serviceWorker.register("<%= webpackConfig.output.publicPath %>service-worker.js")});
+			"serviceWorker"in navigator&&window.addEventListener("load",function(){navigator.serviceWorker.register("<%= webpackConfig.output.publicPath %>sw.js")});
 		</script>
 	<% } %>
 </body>

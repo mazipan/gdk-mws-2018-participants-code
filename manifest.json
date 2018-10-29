@@ -2,10 +2,10 @@
   "name": "gdk-mws-2018-participants-code",
   "short_name": "gdk-mws-2018",
   "description": "Dokumentasi kode untuk Google Developer Kejar - Mobile Web Specialist 2018",
-  "theme_color": "#4d4d4d",
-  "background_color": "#e9e9e9",
+  "theme_color": "#209cee",
+  "background_color": "#000000",
   "display": "standalone",
-  "start_url": "https://mazipan.github.io/gdk-mws-2018-participants-code/",
+  "start_url": "https://mazipan.github.io/gdk-mws-2018-participants-code/index.html",
   "icons": [
     {
       "src": "https://mazipanneh.com/favicon/android-chrome-192x192.png",

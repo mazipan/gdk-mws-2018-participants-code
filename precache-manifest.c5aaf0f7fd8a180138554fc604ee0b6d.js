@@ -1,17 +1,5 @@
 self.__precacheManifest = [
   {
-    "revision": "e6d6732580a586775b33e4b51cb0265a",
-    "url": "/gdk-mws-2018-participants-code/participants.json.gz"
-  },
-  {
-    "revision": "1ca0972bbbdaa473fb18ef95ee8d0d4e",
-    "url": "/gdk-mws-2018-participants-code/participants.json"
-  },
-  {
-    "revision": "2a1ceb5b926ed6fc90b50788b384e0be",
-    "url": "/gdk-mws-2018-participants-code/manifest.json.gz"
-  },
-  {
     "revision": "ec8e53d71c230846b863e2c825fb0e70",
     "url": "/gdk-mws-2018-participants-code/index.html.gz"
   },

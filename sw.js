@@ -1,14 +1,14 @@
 importScripts("/gdk-mws-2018-participants-code/precache-manifest.0a6b9965ada09ab93bd64515b6164171.js", "https://storage.googleapis.com/workbox-cdn/releases/3.6.2/workbox-sw.js");
 
-workbox.precaching.suppressWarnings();
-workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
-
 workbox.setConfig({
   debug: false
 });
 workbox.core.setCacheNameDetails({
   prefix: 'gdk-mws-'
 });
+
+workbox.precaching.suppressWarnings();
+workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
 const getHourFromDay = hour => {
   return hour * 24;

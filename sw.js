@@ -1,4 +1,4 @@
-importScripts("/gdk-mws-2018-participants-code/precache-manifest.1058c487baf2adc5725ea720cd001c6c.js", "https://storage.googleapis.com/workbox-cdn/releases/3.6.2/workbox-sw.js");
+importScripts("/gdk-mws-2018-participants-code/precache-manifest.631453ac28995fac08beef8e0c553521.js", "https://storage.googleapis.com/workbox-cdn/releases/3.6.2/workbox-sw.js");
 
 workbox.setConfig({
   debug: false

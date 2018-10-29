@@ -45,19 +45,20 @@
 		.github-corner:hover .octo-arm {
 			animation: octocat-wave 560ms ease-in-out
 		}
-		
-		.hero.is-info .title{
+
+		.hero.is-info .title {
 			color: #000;
 		}
 
-		.hero.is-info .subtitle{
+		.hero.is-info .subtitle {
 			color: #000;
 		}
-		
-		.checked-link{
+
+		.checked-link {
 			color: #008044;
 		}
-		.unchecked-link{
+
+		.unchecked-link {
 			color: #9E1800;
 		}
 
@@ -93,12 +94,17 @@
 
 <body>
 
-	<a href="https://github.com/mazipan/gdk-mws-2018-participants-code" 
-	target="_blank" 
-	rel="noopener" 
-	class="github-corner"
-	title="View source on GitHub"
-	 aria-label="View source on GitHub">
+	<noscript>
+		<div class="section">
+			<p>
+				Hey, your browser was disabling/unsupporting JavaScript. <br>
+				Please enable, we need that to running well
+			</p>
+		</div>
+	</noscript>
+
+	<a href="https://github.com/mazipan/gdk-mws-2018-participants-code" target="_blank" rel="noopener" class="github-corner"
+	 title="View source on GitHub" aria-label="View source on GitHub">
 		<svg width="80" height="80" viewBox="0 0 250 250" style="fill:#000; color:#fff; position: absolute; top: 0; border: 0; right: 0;"
 		 aria-hidden="true">
 			<path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path>
@@ -151,19 +157,21 @@
 					</a>
 				</strong>
 				and many awesome
-				<a href="https://github.com/mazipan/gdk-mws-2018-participants-code/graphs/contributors" target="_blank" rel="noopener" title="contributors">contributors
+				<a href="https://github.com/mazipan/gdk-mws-2018-participants-code/graphs/contributors" target="_blank" rel="noopener"
+				 title="contributors">contributors
 				</a>.
 			</p>
 			<p>
-				Copyright © 2018. The source code is licensed <a href="http://opensource.org/licenses/mit-license.php" target="_blank" rel="noopener" title="MIT License">MIT</a>.
+				Copyright © 2018. The source code is licensed <a href="http://opensource.org/licenses/mit-license.php" target="_blank"
+				 rel="noopener" title="MIT License">MIT</a>.
 			</p>
 		</div>
 	</footer>
 
 	<% if (webpackConfig.output.publicPath !== '/') { %>
-		<script>
-			"serviceWorker"in navigator&&window.addEventListener("load",function(){navigator.serviceWorker.register("<%= webpackConfig.output.publicPath %>sw.js")});
-		</script>
+	<script>
+		"serviceWorker" in navigator && window.addEventListener("load", function () { navigator.serviceWorker.register("<%= webpackConfig.output.publicPath %>sw.js") });
+	</script>
 	<% } %>
 </body>
 

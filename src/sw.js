@@ -1,12 +1,12 @@
-workbox.precaching.suppressWarnings();
-workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
-
 workbox.setConfig({
   debug: false
 });
 workbox.core.setCacheNameDetails({
   prefix: 'gdk-mws-'
 });
+
+workbox.precaching.suppressWarnings();
+workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
 const getHourFromDay = hour => {
   return hour * 24;

@@ -32,9 +32,15 @@ const cacheableConfig = (name, maxEntry, maxHour) => {
 
 // cache third party
 workbox.routing.registerRoute(
-  new RegExp('https://(?:fonts|storage).(?:googleapis|gstatic).com/(.*)'),
+  new RegExp('https://fonts.googleapis.com/(.*)'),
   workbox.strategies.cacheFirst(
     cacheableConfig('gfonts', 10, getHourFromDay(30))
+  )
+);
+workbox.routing.registerRoute(
+  new RegExp('https://cdnjs.cloudflare.com/(.*)'),
+  workbox.strategies.cacheFirst(
+    cacheableConfig('cloudfrlare', 10, getHourFromDay(30))
   )
 );
 
